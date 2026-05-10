@@ -37,3 +37,8 @@ enableCodeCopy = true
   showSummary = true
   showCards = true
   groupByYear = false
+
+[umamiAnalytics]
+  websiteid = "273c4fa3-d3ba-45c7-a4e9-b2aae212af22"
+  domain = "cloud.umami.is"
+  dataDomains = "carolinafaccin.github.io"
