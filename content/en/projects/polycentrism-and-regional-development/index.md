@@ -5,6 +5,7 @@ categories:
   - "medium-sized cities"
   - "regional planning"
 draft: false
+summary: "How does the concept of polycentrism apply to different regions of Rio Grande do Sul, and what is its real impact on regional development?"
 ---
 
 How does the concept of polycentrism apply to different regions of Rio Grande do Sul, and what is its real impact on regional development?

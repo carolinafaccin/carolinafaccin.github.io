@@ -7,6 +7,7 @@ categories:
   - "metropolises"
   - "regional planning"
 draft: false
+summary: "With the arrival of the pandemic, how could we analyze the dispersion of COVID-19 across a vast territory like Rio Grande do Sul, to inform the public?"
 ---
 
 With the arrival of the pandemic, how could we analyze the dispersion of COVID-19 across a vast territory like Rio Grande do Sul, to inform the public?

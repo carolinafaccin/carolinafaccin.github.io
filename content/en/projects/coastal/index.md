@@ -5,6 +5,7 @@ categories:
   - "urban morphology"
   - "urban planning"
 draft: false
+summary: "How is the rapid urbanization in the North Coast of Rio Grande do Sul, Brazil, strongly driven by tourism, transforming the landscape and pressuring sensitive ecosystems?"
 ---
 
 How is the rapid urbanization in the North Coast of Rio Grande do Sul, Brazil, strongly driven by tourism, transforming the landscape and pressuring sensitive ecosystems?

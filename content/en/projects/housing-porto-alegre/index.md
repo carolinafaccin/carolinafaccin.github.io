@@ -7,6 +7,7 @@ categories:
   - "urban morphology"
   - "urban planning"
 draft: false
+summary: "How do the location and characteristics of gated communities reveal and reinforce patterns concerning the urban morphology of Porto Alegre?"
 ---
 
 _How do the location and characteristics of gated communities reveal and reinforce patterns concerning the urban morphology of Porto Alegre?_

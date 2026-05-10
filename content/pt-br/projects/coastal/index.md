@@ -5,6 +5,7 @@ categories:
   - "morfologia urbana"
   - "planejamento urbano"
 draft: false
+summary: "Como a rápida urbanização no Litoral Norte do Rio Grande do Sul, fortemente impulsionada pelo turismo, está transformando a paisagem e pressionando ecossistemas sensíveis?"
 ---
 
 Como a rápida urbanização no Litoral Norte do Rio Grande do Sul, fortemente impulsionada pelo turismo, está transformando a paisagem e pressionando ecossistemas sensíveis?

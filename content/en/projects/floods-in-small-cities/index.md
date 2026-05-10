@@ -5,6 +5,7 @@ categories:
   - "climate change"
   - "small cities"
 draft: false
+summary: "Following the 2024 floods, how could we, as a scientific community, provide urgent technical diagnoses and recommendations to support the recovery of small municipalities in inland Rio Grande do Sul?"
 ---
 
 Following the 2024 floods, how could we, as a scientific community, provide urgent technical diagnoses and recommendations to support the recovery of small municipalities in inland Rio Grande do Sul?

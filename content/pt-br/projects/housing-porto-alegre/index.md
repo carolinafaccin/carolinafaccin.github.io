@@ -7,6 +7,7 @@ categories:
   - "morfologia urbana"
   - "planejamento urbano"
 draft: false
+summary: "Como a localização e as características dos condomínios fechados revelam e reforçam padrões relativos à morfologia urbana de Porto Alegre?"
 ---
 
 _Como a localização e as características dos condomínios fechados revelam e reforçam padrões relativos à morfologia urbana de Porto Alegre?_

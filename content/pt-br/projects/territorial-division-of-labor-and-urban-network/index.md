@@ -5,6 +5,7 @@ categories:
   - "cidades médias"
   - "planejamento regional"
 draft: false
+summary: "Como a divisão territorial do trabalho e a rede urbana regional se inter-relacionam? É possível avaliá-las a partir das principais cadeias produtivas de uma região?"
 ---
 
 Como a divisão territorial do trabalho e a rede urbana regional se inter-relacionam? É possível avaliá-las a partir das principais cadeias produtivas de uma região?

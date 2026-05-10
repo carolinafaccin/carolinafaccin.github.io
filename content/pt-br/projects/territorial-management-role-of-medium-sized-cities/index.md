@@ -5,6 +5,7 @@ categories:
   - "cidades médias"
   - "planejamento regional"
 draft: false
+summary: "Qual é o papel das cidades médias no desenvolvimento regional e como elas estruturam as redes urbanas que organizam os fluxos de pessoas, capital e informação no Rio Grande do Sul?"
 ---
 
 Qual é o papel das cidades médias no desenvolvimento regional e como elas estruturam as redes urbanas que organizam os fluxos de pessoas, capital e informação no Rio Grande do Sul?

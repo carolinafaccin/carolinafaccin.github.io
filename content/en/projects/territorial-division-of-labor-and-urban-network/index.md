@@ -5,6 +5,7 @@ categories:
   - "medium-sized cities"
   - "regional planning"
 draft: false
+summary: "How are the territorial division of labor and the regional urban network interrelated? Is it possible to evaluate this based on a region's main productive chains?"
 ---
 
 How are the territorial division of labor and the regional urban network interrelated? Is it possible to evaluate this based on a region's main productive chains?
