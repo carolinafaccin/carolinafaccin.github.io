@@ -14,8 +14,8 @@ contentDir = "content/en"
 [params.author]
   name = "Carolina Faccin"
   image = "img/profile.jpeg"
-  headline = "Geospatial Data Analyst | Cities & Climate"
-  bio = "Urban researcher and geospatial analyst focused on climate resilience and regional planning."
+  headline = "Geospatial Data Analyst"
+  bio = "PhD in Urban Planning, urban researcher and geospatial analyst focused on climate resilience and urban planning."
   location = "Porto Alegre, RS, Brazil"
   links = [
     { linkedin = "https://linkedin.com/in/carolinafaccin" },
