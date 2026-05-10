@@ -6,6 +6,7 @@ categories:
   - "cidades pequenas"
   - "planejamento urbano"
 draft: false
+summary: "Qual é o papel das cidades pequenas na rede urbana regional, e quais são suas dinâmicas socioespaciais e morfológicas específicas, frequentemente negligenciadas nos estudos urbanos?"
 ---
 
 Qual é o papel das cidades pequenas na rede urbana regional, e quais são suas dinâmicas socioespaciais e morfológicas específicas, frequentemente negligenciadas nos estudos urbanos?

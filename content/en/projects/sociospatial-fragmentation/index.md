@@ -7,6 +7,7 @@ categories:
   - "urban morphology"
   - "urban planning"
 draft: false
+summary: "How can socio-spatial fragmentation be measured and analyzed over 50 years, connecting it to public policies and impacts on the landscape?"
 ---
 
 How can socio-spatial fragmentation be measured and analyzed over 50 years, connecting it to public policies and impacts on the landscape?

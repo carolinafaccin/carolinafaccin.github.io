@@ -5,6 +5,7 @@ categories:
   - "medium-sized cities"
   - "regional planning"
 draft: false
+summary: "What is the role of medium-sized cities in regional development, and how do they structure the urban networks that organize the flows of people, capital, and information in Rio Grande do Sul?"
 ---
 
 What is the role of medium-sized cities in regional development, and how do they structure the urban networks that organize the flows of people, capital, and information in Rio Grande do Sul?

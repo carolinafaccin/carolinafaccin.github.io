@@ -7,6 +7,7 @@ categories:
   - "morfologia urbana"
   - "planejamento urbano"
 draft: false
+summary: "Como mensurar e analisar a fragmentação socioespacial ao longo de 50 anos, conectando-a a políticas públicas e aos impactos na paisagem?"
 ---
 
 Como mensurar e analisar a fragmentação socioespacial ao longo de 50 anos, conectando-a a políticas públicas e aos impactos na paisagem?

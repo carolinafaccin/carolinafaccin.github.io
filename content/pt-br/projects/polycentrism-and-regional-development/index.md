@@ -5,6 +5,7 @@ categories:
   - "cidades médias"
   - "planejamento regional"
 draft: false
+summary: "Como o conceito de policentrismo se aplica a diferentes regiões do Rio Grande do Sul, e qual é seu impacto real no desenvolvimento regional?"
 ---
 
 Como o conceito de policentrismo se aplica a diferentes regiões do Rio Grande do Sul, e qual é seu impacto real no desenvolvimento regional?

@@ -5,6 +5,7 @@ categories:
   - "mudanças climáticas"
   - "cidades pequenas"
 draft: false
+summary: "Após as enchentes de 2024, como poderíamos, enquanto comunidade científica, oferecer diagnósticos técnicos urgentes e recomendações para apoiar a recuperação dos pequenos municípios do interior do Rio Grande do Sul?"
 ---
 
 Após as enchentes de 2024, como poderíamos, enquanto comunidade científica, oferecer diagnósticos técnicos urgentes e recomendações para apoiar a recuperação dos pequenos municípios do interior do Rio Grande do Sul?

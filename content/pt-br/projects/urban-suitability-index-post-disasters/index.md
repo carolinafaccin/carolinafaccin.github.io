@@ -6,6 +6,7 @@ categories:
   - "cidades pequenas"
   - "planejamento urbano"
 draft: false
+summary: "Como definir diretrizes para a ocupação prioritária de municípios após as enchentes de 2024 — de forma segura, rápida e com baixo custo?"
 ---
 
 Como definir diretrizes para a ocupação prioritária de municípios após as enchentes de 2024 — de forma segura, rápida e com baixo custo?

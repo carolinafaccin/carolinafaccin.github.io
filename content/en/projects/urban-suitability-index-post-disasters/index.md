@@ -6,6 +6,7 @@ categories:
   - "small cities"
   - "urban planning"
 draft: false
+summary: "How can we define guidelines for priority occupation of municipalities after the 2024 floods — in a safe, fast, and low-budget manner?"
 ---
 
 How can we define guidelines for priority occupation of municipalities after the 2024 floods — in a safe, fast, and low-budget manner?

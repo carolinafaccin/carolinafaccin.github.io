@@ -7,6 +7,7 @@ categories:
   - "metrópoles"
   - "planejamento regional"
 draft: false
+summary: "Com a chegada da pandemia, como poderíamos analisar a dispersão do COVID-19 em um território tão vasto como o Rio Grande do Sul, de forma a informar a população?"
 ---
 
 Com a chegada da pandemia, como poderíamos analisar a dispersão do COVID-19 em um território tão vasto como o Rio Grande do Sul, de forma a informar a população?

@@ -6,6 +6,7 @@ categories:
   - "small cities"
   - "urban planning"
 draft: false
+summary: "What is the role of small cities in the regional urban network, and what are their specific socio-spatial and morphological dynamics, which are often overlooked in urban studies?"
 ---
 
 What is the role of small cities in the regional urban network, and what are their specific socio-spatial and morphological dynamics, which are often overlooked in urban studies?

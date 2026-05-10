@@ -1,0 +1,37 @@
+/* Carolina — sage green primary, warm olive neutrals */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Warm grey-olive neutrals (light mode reads on off-white) */
+  --color-neutral-50:  250, 249, 246;
+  --color-neutral-100: 243, 241, 236;
+  --color-neutral-200: 226, 223, 215;
+  --color-neutral-300: 200, 197, 187;
+  --color-neutral-400: 158, 155, 143;
+  --color-neutral-500: 116, 113, 102;
+  --color-neutral-600:  84,  81,  71;
+  --color-neutral-700:  60,  58,  48;
+  --color-neutral-800:  40,  38,  30;
+  --color-neutral-900:  28,  26,  20;
+  /* Sage green primary */
+  --color-primary-50:  246, 248, 243;
+  --color-primary-100: 233, 238, 228;
+  --color-primary-200: 209, 219, 200;
+  --color-primary-300: 176, 192, 163;
+  --color-primary-400: 142, 156, 126;
+  --color-primary-500: 113, 128,  98;
+  --color-primary-600:  88, 101,  75;
+  --color-primary-700:  69,  80,  58;
+  --color-primary-800:  52,  61,  44;
+  --color-primary-900:  38,  45,  32;
+  /* Terracotta secondary */
+  --color-secondary-50:  253, 244, 240;
+  --color-secondary-100: 249, 224, 214;
+  --color-secondary-200: 242, 192, 171;
+  --color-secondary-300: 228, 147, 116;
+  --color-secondary-400: 210,  99,  62;
+  --color-secondary-500: 196,  75,  35;
+  --color-secondary-600: 163,  58,  24;
+  --color-secondary-700: 128,  44,  16;
+  --color-secondary-800:  94,  32,  10;
+  --color-secondary-900:  62,  20,   5;
+}
