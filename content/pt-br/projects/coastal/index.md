@@ -21,4 +21,4 @@ Como a rápida urbanização no Litoral Norte do Rio Grande do Sul, fortemente i
 
 [GitHub](https://github.com/carolinafaccin/coastal)
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/faccinlombarddalcin_sider_2025_rs_corede_litoral_v2.png?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/faccinlombarddalcin_sider_2025_expansao_urbana_1985_2023.png?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/faccinlombarddalcin_sider_2025_mapa_cobertura.png?w=862)
+![](/img/projects/coastal/coastal_01.png) ![](/img/projects/coastal/coastal_02.png) ![](/img/projects/coastal/coastal_03.png)

@@ -26,7 +26,7 @@ Foi minha principal experiência formativa em pesquisa, onde desenvolvi habilida
   * **[Silveira & Faccin (2021)](https://pedroejoaoeditores.com.br/produto/urbanizacao-cidades-medias-e-dinamicas-urbanas-e-regionais/)**: Organização de E-book.
   * **[Campos, Maraschin & Silveira (2021)](https://pedroejoaoeditores.com.br/produto/policentrismo-rede-urbana-e-aglomeracoes-urbanas-no-rio-grande-do-sul/)**: Autora dos capítulos 9, 10, 11 e 12.
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2021/01/capa_ebooks-1.png?w=1001)
+![](/img/projects/polycentrism-and-regional-development/polycentrism_01.png)
 
 **Artigos Publicados:**
 
@@ -37,4 +37,4 @@ Foi minha principal experiência formativa em pesquisa, onde desenvolvi habilida
   * **[Silveira, Faccin, Silveira & Seibert (2022)](https://periodicos.utfpr.edu.br/rbpd/article/view/15435)**: Possíveis áreas urbanas funcionais e cidades intermediárias na Região Funcional 7, no Rio Grande do Sul.
   * **[Silveira, Faccin, Silveira & Seibert (2023)](https://revistas.uautonoma.cl/index.php/riem/article/view/2120)**: Análise síntese das quatro regiões estudadas, identificando áreas urbanas funcionais e a centralidade das cidades médias.
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2021/01/fig_1-1.webp?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2021/01/fig_2-1.webp?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2021/01/fig_3-1.webp?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2021/01/fig_4-1.webp?w=1024)
+![](/img/projects/polycentrism-and-regional-development/polycentrism_02.webp) ![](/img/projects/polycentrism-and-regional-development/polycentrism_03.webp) ![](/img/projects/polycentrism-and-regional-development/polycentrism_04.webp) ![](/img/projects/polycentrism-and-regional-development/polycentrism_05.webp)
