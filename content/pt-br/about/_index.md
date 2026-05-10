@@ -1,14 +1,17 @@
 ---
 title: "Sobre"
+lastmod: 2026-05-10
 ---
 
-Combino formação em estudos urbanos com experiência em análise de dados para produzir evidências que apoiam o planejamento urbano e o desenvolvimento de políticas públicas.
+## Perfil
 
-Minha trajetória reúne experiência acadêmica e aplicada, refletida em mais de trinta publicações científicas e em projetos voltados a cidades, território, clima, economia e vulnerabilidades socioambientais.
+Cresci em Santa Cruz do Sul, uma cidade de médio porte no interior do Rio Grande do Sul. Estudei Arquitetura e Urbanismo por lá, o que me deixou curiosa sobre como as cidades funcionam — embora eu tenha acabado passando mais tempo com bases de dados espaciais do que com pranchas e croquis.
 
-Acredito no trabalho em equipe para a construção coletiva de conhecimento e, sobretudo, no poder da visualização de dados, do storytelling e da comunicação para qualificar processos de decisão.
+Me mudei para Porto Alegre para fazer pós-graduação, onde concluí o mestrado e o doutorado em Planejamento Urbano e Regional. Em 2023, fiz as malas e passei alguns meses em Lisboa como pesquisadora visitante na Universidade de Lisboa, onde também comecei a programar em Python.
 
-[Conecte-se no LinkedIn →](https://linkedin.com/in/carolinafaccin)
+Hoje atuo como Analista de Dados no Programa Cidades do WRI Brasil, com foco em adaptação urbana e resiliência climática. Meu trabalho envolve análise espacial, construção de índices e tradução de dados complexos em evidências que possam orientar decisões de planejamento.
+
+Moro em um apartamento aconchegante em Porto Alegre, a 5 minutos a pé do Lago Guaíba - onde gosto de caminhar e ver o pôr do sol - e a 2 horas de carro do litoral, onde minha família e eu adoramos passar os fins de semana.
 
 ## Formação Acadêmica
 
@@ -26,3 +29,6 @@ Mais de trinta artigos e capítulos de livros revisados por pares em planejament
 
 [Ver todas as publicações no ResearchGate →](https://www.researchgate.net/profile/Carolina-Faccin)
 
+## Contato
+
+Para contato profissional, fale comigo pelo [LinkedIn](https://linkedin.com/in/carolinafaccin) ou [envie um e-mail](mailto:faccincarolina@gmail.com). Você também pode me encontrar no [GitHub](https://github.com/carolinafaccin) e no [ResearchGate](https://www.researchgate.net/profile/Carolina-Faccin).
