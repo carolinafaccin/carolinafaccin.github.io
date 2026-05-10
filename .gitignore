@@ -1,0 +1,17 @@
+# Build output
+/public/
+/resources/_gen/
+
+# Hugo cache
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Python (if used for scripts)
+venv/
+__pycache__/

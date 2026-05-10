@@ -1,0 +1,35 @@
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+
+[article]
+  showDate = true
+  showAuthor = false
+  showBreadcrumbs = true
+  showReadingTime = true
+  showTableOfContents = true
+  showPagination = true
+  sharingLinks = ["linkedin", "x-twitter", "whatsapp", "email"]
+
+[list]
+  showBreadcrumbs = false
+  showSummary = true
+  showCards = true
+  groupByYear = false

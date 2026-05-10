@@ -1,0 +1,22 @@
+locale = "pt-BR"
+label = "Português"
+weight = 2
+title = "Carolina Faccin"
+
+[params]
+  displayName = "PT"
+  isoCode = "pt-br"
+  rtl = false
+  dateFormat = "2 de January de 2006"
+  description = "Carolina Faccin — site profissional"
+
+[params.author]
+  name = "Carolina Faccin"
+  image = "img/profile.jpg"
+  headline = "Seu headline aqui"
+  bio = "Sua bio curta aqui."
+  links = [
+    { linkedin = "https://linkedin.com/in/carolinafaccin" },
+    { github = "https://github.com/carolinafaccin" },
+    { email = "mailto:faccincarolina@gmail.com" },
+  ]

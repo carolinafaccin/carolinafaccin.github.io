@@ -1,0 +1,22 @@
+locale = "en-US"
+label = "English"
+weight = 1
+title = "Carolina Faccin"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "January 2, 2006"
+  description = "Carolina Faccin — professional website"
+
+[params.author]
+  name = "Carolina Faccin"
+  image = "img/profile.jpg"
+  headline = "Your headline here"
+  bio = "Your short bio here."
+  links = [
+    { linkedin = "https://linkedin.com/in/carolinafaccin" },
+    { github = "https://github.com/carolinafaccin" },
+    { email = "mailto:faccincarolina@gmail.com" },
+  ]
