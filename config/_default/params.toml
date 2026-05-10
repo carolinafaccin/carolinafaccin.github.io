@@ -27,6 +27,7 @@ enableCodeCopy = true
   showReadingTime = true
   showTableOfContents = true
   showPagination = true
+  showTaxonomies = true
   sharingLinks = ["linkedin", "x-twitter", "whatsapp", "email"]
 
 [list]

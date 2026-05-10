@@ -1,3 +1,5 @@
 ---
 title: "Projetos"
 ---
+
+{{< category-filter >}}

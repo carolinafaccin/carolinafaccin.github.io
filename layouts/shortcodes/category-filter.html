@@ -1,0 +1,15 @@
+{{ $categories := site.Taxonomies.categories }}
+{{ if $categories }}
+<div class="flex flex-wrap gap-2 mb-8 not-prose">
+  {{ range $name, $pages := $categories }}
+  <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/"
+     class="inline-flex items-center gap-1 px-3 py-1 text-sm rounded-full
+            border border-primary-400 dark:border-primary-600
+            text-primary-700 dark:text-primary-400
+            hover:bg-primary-100 dark:hover:bg-primary-900
+            transition-colors duration-200">
+    {{ $name }}<span class="text-neutral-400 dark:text-neutral-500 text-xs">&thinsp;{{ len $pages }}</span>
+  </a>
+  {{ end }}
+</div>
+{{ end }}
