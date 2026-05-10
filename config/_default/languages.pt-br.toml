@@ -13,8 +13,8 @@ title = "Carolina Faccin"
 [params.author]
   name = "Carolina Faccin"
   image = "img/profile.jpeg"
-  headline = "Seu headline aqui"
-  bio = "Sua bio curta aqui."
+  headline = "Análise de Dados Geoespaciais | Cidades & Clima"
+  bio = "Pesquisadora urbana e analista de dados geoespaciais com foco em resiliência climática e planejamento regional."
   links = [
     { linkedin = "https://linkedin.com/in/carolinafaccin" },
     { github = "https://github.com/carolinafaccin" },
