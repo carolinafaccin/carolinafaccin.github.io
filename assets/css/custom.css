@@ -13,3 +13,8 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 2rem !important;
   max-width: 2rem !important;
 }
+
+.logo svg {
+  height: 2rem !important;
+  width: 2rem !important;
+}
