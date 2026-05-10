@@ -1,3 +1,6 @@
+# Cover images staged in root (committed into content/ as feature.png)
+/*.png
+
 # Build output
 /public/
 /resources/_gen/
