@@ -37,12 +37,12 @@ Relatórios entregues à [SEDUR](https://www.sedur.rs.gov.br/cidades) (Secretari
 **1\. Zoneamento de Risco**
 
   * [Arroio do Meio](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/1a-zoneamento-de-risco-arroio-do-meio.pdf)
-  * [Colinas](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1a-zoneamento-de-risco-colinas.pdf)
-  * [Cruzeiro do Sul](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1a-zoneamento-de-areas-de-risco-cruzeiro-do-sul.pdf)
-  * [Encantado](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1a-zoneamento-de-risco-encantado.pdf)
-  * [Estrela](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1a-zoneamento-de-areas-de-risco-estrela.pdf)
-  * [Muçum](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1a-zoneamento-de-risco-mucum.pdf)
-  * [Roca Sales](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1a-zoneamento-de-risco-roca-sales.pdf)
+  * [Colinas](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-colinas.pdf)
+  * [Cruzeiro do Sul](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-areas-de-risco-cruzeiro-do-sul.pdf)
+  * [Encantado](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-encantado.pdf)
+  * [Estrela](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-areas-de-risco-estrela.pdf)
+  * [Muçum](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-mucum.pdf)
+  * [Roca Sales](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-roca-sales.pdf)
 
 _**Exemplo:**_ Mapas do município de Arroio do Meio
 
@@ -50,13 +50,13 @@ _**Exemplo:**_ Mapas do município de Arroio do Meio
 
 **2\. Diretrizes Preliminares de Ocupação Prioritária**
 
-  * [Arroio do Meio](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1b-diretrizes-preliminares-de-ocupacao-prioritaria-arroio-do-meio.pdf)
-  * [Colinas](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1b-diretrizes-preliminares-de-ocupacao-prioritaria-colinas.pdf)
-  * [Cruzeiro do Sul](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1b-diretrizes-preliminares-de-ocupacao-prioritaria-cruzeiro-do-sul.pdf)
-  * [Encantado](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1b-diretrizes-preliminares-de-ocupacao-prioritaria-encantado.pdf)
-  * [Estrela](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1b-diretrizes-preliminares-de-ocupacao-prioritaria-estrela.pdf)
-  * [Muçum](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1b-diretrizes-preliminares-de-ocupacao-prioritaria-mucum.pdf)
-  * [Roca Sales](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/1b-diretrizes-preliminares-de-ocupacao-prioritaria-roca-sales.pdf)
+  * [Arroio do Meio](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-arroio-do-meio.pdf)
+  * [Colinas](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-colinas.pdf)
+  * [Cruzeiro do Sul](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-cruzeiro-do-sul.pdf)
+  * [Encantado](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-encantado.pdf)
+  * [Estrela](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-estrela.pdf)
+  * [Muçum](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-mucum.pdf)
+  * [Roca Sales](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-roca-sales.pdf)
 
 _**Exemplo:**_ Mapas do município de Muçum
 
@@ -64,13 +64,13 @@ _**Exemplo:**_ Mapas do município de Muçum
 
 **3\. Diagnóstico e Leitura Técnica**
 
-  * [Arroio do Meio](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/2b-1-diagnostico-tecnico-e-leitura-tecnica-arroio-do-meio.pdf)
-  * [Colinas](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/2b-1-diagnostico-tecnico-e-leitura-tecnica-colinas.pdf)
-  * [Cruzeiro do Sul](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/2b-1-diagnostico-tecnico-e-leitura-tecnica-cruzeiro-do-sul.pdf)
-  * [Encantado](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/2b-1-diagnostico-tecnico-e-leitura-tecnica-encantado.pdf)
-  * [Estrela](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/2b-1-diagnostico-tecnico-e-leitura-tecnica-estrela.pdf)
-  * [Muçum](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/2b-1-diagnostico-tecnico-e-leitura-tecnica-mucum.pdf)
-  * [Roca Sales](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/08/2b-1-diagnostico-tecnico-e-leitura-tecnica-roca-sales.pdf)
+  * [Arroio do Meio](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-arroio-do-meio.pdf)
+  * [Colinas](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-colinas.pdf)
+  * [Cruzeiro do Sul](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-cruzeiro-do-sul.pdf)
+  * [Encantado](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-encantado.pdf)
+  * [Estrela](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-estrela.pdf)
+  * [Muçum](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-mucum.pdf)
+  * [Roca Sales](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-roca-sales.pdf)
 
 _**Exemplo:**_ Mapas do município de Roca Sales
 
