@@ -31,4 +31,4 @@ Over thirty peer-reviewed articles and book chapters in urban planning, regional
 
 ## Contact
 
-For business inquiries, please contact me on [LinkedIn](https://linkedin.com/in/carolinafaccin) or [email me](mailto:faccincarolina@gmail.com). You can also find me on [GitHub](https://github.com/carolinafaccin) and [ResearchGate](https://www.researchgate.net/profile/Carolina-Faccin).
+For business inquiries, please contact me on [LinkedIn](https://linkedin.com/in/carolinafaccin) or [email me](mailto:faccincarolina@gmail.com). 

@@ -31,4 +31,4 @@ Mais de trinta artigos e capítulos de livros revisados por pares em planejament
 
 ## Contato
 
-Para contato profissional, fale comigo pelo [LinkedIn](https://linkedin.com/in/carolinafaccin) ou [envie um e-mail](mailto:faccincarolina@gmail.com). Você também pode me encontrar no [GitHub](https://github.com/carolinafaccin) e no [ResearchGate](https://www.researchgate.net/profile/Carolina-Faccin).
+Para contato profissional, fale comigo pelo [LinkedIn](https://linkedin.com/in/carolinafaccin) ou [envie um e-mail](mailto:faccincarolina@gmail.com). 
