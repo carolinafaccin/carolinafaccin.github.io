@@ -12,6 +12,8 @@
 .vscode/
 .idea/
 
-# Python (if used for scripts)
+# Python
 venv/
 __pycache__/
+wp_to_hugo.py
+*.xml
