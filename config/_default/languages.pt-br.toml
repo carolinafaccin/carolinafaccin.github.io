@@ -16,8 +16,10 @@ contentDir = "content/pt-br"
   image = "img/profile.jpeg"
   headline = "Analista de Dados Geoespaciais | Cidades & Clima"
   bio = "Pesquisadora urbana e analista de dados geoespaciais com foco em resiliência climática e planejamento regional."
+  location = "Porto Alegre, RS, Brasil"
   links = [
     { linkedin = "https://linkedin.com/in/carolinafaccin" },
+    { researchgate = "https://www.researchgate.net/profile/Carolina-Faccin" },
     { github = "https://github.com/carolinafaccin" },
     { email = "mailto:faccincarolina@gmail.com" },
   ]
