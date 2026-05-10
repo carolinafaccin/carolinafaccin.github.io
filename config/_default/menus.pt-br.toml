@@ -8,7 +8,3 @@
   pageRef = "projects"
   weight = 20
 
-[[main]]
-  name = "Contato"
-  pageRef = "contact"
-  weight = 30
