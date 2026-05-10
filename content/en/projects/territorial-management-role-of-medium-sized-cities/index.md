@@ -28,4 +28,4 @@ What is the role of medium-sized cities in regional development, and how do they
 
 [E-book](https://pedroejoaoeditores.com.br/produto/cidades-medias-gestao-territorial-e-desenvolvimento-regional/)
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/06/fig_1-1-1.png?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/06/fig_2-1-1.png?w=1024)
+![](/img/projects/territorial-management-role-of-medium-sized-cities/territorial-mgmt_01.png) ![](/img/projects/territorial-management-role-of-medium-sized-cities/territorial-mgmt_02.png)

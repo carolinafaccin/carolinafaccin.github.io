@@ -33,4 +33,4 @@ Pesquisa de doutorado desenvolvida de forma independente, tendo como estudo de c
 
   * **[Faccin (2025)](https://editorarealize.com.br/artigo/visualizar/122487)** (pt/br): Artigo submetido ao seminário XXI Enanpur.
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/06/localizacao.png?w=862) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/06/mapa_expansao_1993_2013_2022.png?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/06/faccin2025_thesis_index_en.png?w=862)
+![](/img/projects/sociospatial-fragmentation/sociospatial_01.png) ![](/img/projects/sociospatial-fragmentation/sociospatial_02.png) ![](/img/projects/sociospatial-fragmentation/sociospatial_03.png)

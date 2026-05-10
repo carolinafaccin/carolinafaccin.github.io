@@ -22,9 +22,9 @@ Como definir diretrizes para a ocupação prioritária de municípios após as e
 
 Artigo Publicado (em breve!)
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/vt_localizacao-1.png)
+![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_01.png)
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/vt_aptidao-1.png)
+![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_02.png)
 
 * * *
 
@@ -46,7 +46,7 @@ Relatórios entregues à [SEDUR](https://www.sedur.rs.gov.br/cidades) (Secretari
 
 _**Exemplo:**_ Mapas do município de Arroio do Meio
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/arm_1a_risco_mun_190mm.png?w=862) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/arm_1a_susc_inund_au_mun_190mm.png?w=862) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/arm_1a_risco_sede.png?w=862)
+![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_03.png) ![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_04.png) ![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_05.png)
 
 **2\. Diretrizes Preliminares de Ocupação Prioritária**
 
@@ -60,7 +60,7 @@ _**Exemplo:**_ Mapas do município de Arroio do Meio
 
 _**Exemplo:**_ Mapas do município de Muçum
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/muc_1b_fatores_diagrama.png?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/muc_1b_multicriterio_mun.png?w=1024) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/muc_1b_multicriterio_baixa_alta_sede.png?w=936)
+![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_06.png) ![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_07.png) ![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_08.png)
 
 **3\. Diagnóstico e Leitura Técnica**
 
@@ -74,4 +74,4 @@ _**Exemplo:**_ Mapas do município de Muçum
 
 _**Exemplo:**_ Mapas do município de Roca Sales
 
-![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/roc_5.1_producao_rural.png?w=819) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/roc_6.1_evolucao_urbana_e_loteamentos_risco_sede.png?w=862) ![](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/roc_6.9_infra_agua_poco_mun.png?w=819)
+![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_09.png) ![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_10.png) ![](/img/projects/urban-suitability-index-post-disasters/urban-suitability_11.png)
