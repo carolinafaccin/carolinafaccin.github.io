@@ -15,13 +15,13 @@ Moro em um apartamento aconchegante em Porto Alegre, a 5 minutos a pé do Lago G
 
 ## Formação Acadêmica
 
-**Doutorado em Planejamento Urbano e Regional** — UFRGS, 2021–2025
+2021-2025 - **Doutorado em Planejamento Urbano e Regional** — UFRGS, Porto Alegre - RS, Brasil
 
-**Estágio Doutoral em Geografia** — Universidade de Lisboa, 2023–2024
+2023–2024 - **Estágio Doutoral em Geografia** — Universidade de Lisboa, Lisboa - Portugal
 
-**Mestrado em Planejamento Urbano e Regional** — UFRGS, 2019–2020
+2019-2020 - **Mestrado em Planejamento Urbano e Regional** — UFRGS, Porto Alegre - RS, Brasil
 
-**Bacharelado em Arquitetura e Urbanismo** — UNISC, 2013–2018
+2013–2018 - **Bacharelado em Arquitetura e Urbanismo** — UNISC, Santa Cruz do Sul - RS, Brasil
 
 ## Publicações
 

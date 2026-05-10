@@ -15,13 +15,13 @@ I live in a cozy apartment in Porto Alegre, a 5-minute walk from Lake Guaíba �
 
 ## Education
 
-**PhD in Urban and Regional Planning** — UFRGS, 2021–2025
+2021-2025 - **PhD in Urban and Regional Planning** — UFRGS, Porto Alegre - RS, Brazil
 
-**PhD Internship in Geography** — Universidade de Lisboa, 2023–2024
+2023-2024 - **PhD Internship in Geography** — Universidade de Lisboa, Lisboa - Portugal
 
-**MSc in Urban and Regional Planning** — UFRGS, 2019–2020
+2019-2020 - **MSc in Urban and Regional Planning** — UFRGS, Porto Alegre - RS, Brazil
 
-**BSc in Architecture and Urbanism** — UNISC, 2013–2018
+2013-2028 - **BSc in Architecture and Urbanism** — UNISC, Santa Cruz do Sul - RS, Brazil
 
 ## Publications
 
