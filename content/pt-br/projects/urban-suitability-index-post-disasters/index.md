@@ -1,6 +1,6 @@
 ---
-title: "Índice de Aptidão Urbana Pós-Desastres (2024)"
-date: 2025-07-01T00:00:00+00:00
+title: "Índice de Aptidão Urbana Pós-Desastres"
+date: 2025-07-08T09:00:00+00:00
 categories:
   - "mudanças climáticas"
   - "cidades pequenas"

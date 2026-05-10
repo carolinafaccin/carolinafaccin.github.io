@@ -1,6 +1,6 @@
 ---
-title: "Housing and Gated Communities in Porto Alegre (2022-2024)"
-date: 2024-01-01T04:00:00+00:00
+title: "Housing and Gated Communities in Porto Alegre"
+date: 2024-07-11T10:00:00+00:00
 categories:
   - "housing"
   - "metropolises"

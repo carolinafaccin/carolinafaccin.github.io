@@ -1,6 +1,6 @@
 ---
-title: "Impactos das Enchentes de 2024 em Pequenas Cidades do Rio Grande do Sul (2024)"
-date: 2024-01-01T06:00:00+00:00
+title: "Impactos das Enchentes de 2024 em Pequenas Cidades do Rio Grande do Sul"
+date: 2024-09-23T11:00:00+00:00
 categories:
   - "mudanças climáticas"
   - "cidades pequenas"

@@ -1,6 +1,6 @@
 ---
-title: "Urban Transformation Patterns in Coastal Cities (2025)"
-date: 2025-08-01T00:00:00+00:00
+title: "Urban Transformation Patterns in Coastal Cities"
+date: 2025-08-14T10:00:00+00:00
 categories:
   - "urban morphology"
   - "urban planning"

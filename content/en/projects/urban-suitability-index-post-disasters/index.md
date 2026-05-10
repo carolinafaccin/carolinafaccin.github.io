@@ -1,6 +1,6 @@
 ---
-title: "Urban Suitability Index Post-Disasters (2024)"
-date: 2025-07-01T00:00:00+00:00
+title: "Urban Suitability Index Post-Disasters"
+date: 2025-07-08T09:00:00+00:00
 categories:
   - "climate change"
   - "small cities"

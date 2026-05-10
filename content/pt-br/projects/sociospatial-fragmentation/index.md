@@ -1,5 +1,5 @@
 ---
-title: "Fragmentação Socioespacial e Repercussões na Paisagem (2021-2025)"
+title: "Fragmentação Socioespacial e Repercussões na Paisagem"
 date: 2025-06-16T14:00:00+00:00
 categories:
   - "habitação"

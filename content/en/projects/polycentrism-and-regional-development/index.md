@@ -1,6 +1,6 @@
 ---
-title: "Polycentrism & Regional Development (2016-2021)"
-date: 2021-01-01T00:00:00+00:00
+title: "Polycentrism & Regional Development"
+date: 2021-01-28T10:00:00+00:00
 categories:
   - "medium-sized cities"
   - "regional planning"

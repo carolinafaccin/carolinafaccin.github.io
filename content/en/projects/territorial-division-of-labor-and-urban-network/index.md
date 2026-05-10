@@ -1,6 +1,6 @@
 ---
-title: "Territorial Division of Labor & Urban Network (2019-2020)"
-date: 2021-01-01T01:00:00+00:00
+title: "Territorial Division of Labor & Urban Network"
+date: 2021-05-22T09:00:00+00:00
 categories:
   - "medium-sized cities"
   - "regional planning"

@@ -1,6 +1,6 @@
 ---
-title: "Papel de Gestão Territorial das Cidades Médias (2021-2025)"
-date: 2024-01-01T00:00:00+00:00
+title: "Papel de Gestão Territorial das Cidades Médias"
+date: 2024-01-15T10:00:00+00:00
 categories:
   - "cidades médias"
   - "planejamento regional"
