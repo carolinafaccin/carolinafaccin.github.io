@@ -1,6 +1,6 @@
 ---
-title: "Habitação e Condomínios Fechados em Porto Alegre (2022-2024)"
-date: 2024-01-01T04:00:00+00:00
+title: "Habitação e Condomínios Fechados em Porto Alegre"
+date: 2024-07-11T10:00:00+00:00
 categories:
   - "habitação"
   - "metrópoles"

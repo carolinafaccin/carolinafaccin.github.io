@@ -1,6 +1,6 @@
 ---
-title: "Dinâmicas e Morfologia de Cidades Pequenas (2021-2024)"
-date: 2024-01-01T02:00:00+00:00
+title: "Dinâmicas e Morfologia de Cidades Pequenas"
+date: 2024-03-20T09:00:00+00:00
 categories:
   - "planejamento regional"
   - "cidades pequenas"

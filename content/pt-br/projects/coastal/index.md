@@ -1,6 +1,6 @@
 ---
-title: "Padrões de Transformação Urbana em Cidades Costeiras (2025)"
-date: 2025-08-01T00:00:00+00:00
+title: "Padrões de Transformação Urbana em Cidades Costeiras"
+date: 2025-08-14T10:00:00+00:00
 categories:
   - "morfologia urbana"
   - "planejamento urbano"

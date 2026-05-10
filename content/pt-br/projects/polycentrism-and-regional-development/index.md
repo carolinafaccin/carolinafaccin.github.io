@@ -1,6 +1,6 @@
 ---
-title: "Policentrismo e Desenvolvimento Regional (2016-2021)"
-date: 2021-01-01T00:00:00+00:00
+title: "Policentrismo e Desenvolvimento Regional"
+date: 2021-01-28T10:00:00+00:00
 categories:
   - "cidades médias"
   - "planejamento regional"

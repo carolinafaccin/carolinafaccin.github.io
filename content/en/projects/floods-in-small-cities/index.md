@@ -1,6 +1,6 @@
 ---
-title: "Impacts of the 2024 Floods on Small Cities in Rio Grande do Sul (2024)"
-date: 2024-01-01T06:00:00+00:00
+title: "Impacts of the 2024 Floods on Small Cities in Rio Grande do Sul"
+date: 2024-09-23T11:00:00+00:00
 categories:
   - "climate change"
   - "small cities"

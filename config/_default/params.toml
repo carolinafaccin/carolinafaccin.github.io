@@ -18,7 +18,8 @@ enableCodeCopy = true
 [homepage]
   layout = "profile"
   showRecent = true
-  showRecentItems = 5
+  showRecentItems = 3
+  cardView = true
 
 [article]
   showDate = true

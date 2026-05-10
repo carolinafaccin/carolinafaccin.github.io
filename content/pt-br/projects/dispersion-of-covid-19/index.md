@@ -1,6 +1,6 @@
 ---
-title: "Dispersão do Covid-19 (2020-2021)"
-date: 2021-01-01T02:00:00+00:00
+title: "Dispersão do Covid-19"
+date: 2021-11-03T10:00:00+00:00
 categories:
   - "covid-19"
   - "cidades médias"

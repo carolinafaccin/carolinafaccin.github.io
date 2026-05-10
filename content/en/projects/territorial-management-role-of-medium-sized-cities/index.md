@@ -1,6 +1,6 @@
 ---
-title: "Territorial Management Role of Medium-Sized Cities (2021-2025)"
-date: 2024-01-01T00:00:00+00:00
+title: "Territorial Management Role of Medium-Sized Cities"
+date: 2024-01-15T10:00:00+00:00
 categories:
   - "medium-sized cities"
   - "regional planning"

@@ -1,5 +1,5 @@
 ---
-title: "Sociospatial Fragmentation and Repercussions on the Landscape (2021-2025)"
+title: "Sociospatial Fragmentation and Repercussions on the Landscape"
 date: 2025-06-16T14:00:00+00:00
 categories:
   - "housing"

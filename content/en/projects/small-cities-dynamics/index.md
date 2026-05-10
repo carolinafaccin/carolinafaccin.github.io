@@ -1,6 +1,6 @@
 ---
-title: "Dynamics and Morphology of Small Cities (2021-2024)"
-date: 2024-01-01T02:00:00+00:00
+title: "Dynamics and Morphology of Small Cities"
+date: 2024-03-20T09:00:00+00:00
 categories:
   - "regional planning"
   - "small cities"
