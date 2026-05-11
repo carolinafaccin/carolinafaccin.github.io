@@ -25,7 +25,7 @@
     <div class="min-w-0 min-h-0 max-w-fit">
       {{ if $photo }}
       {{ $resized := $photo.Resize "800x q90" }}
-      <div class="not-prose mb-8 overflow-hidden rounded-md shadow-md max-w-prose">
+      <div class="not-prose mt-4 lg:mt-0 mb-8 overflow-hidden rounded-md shadow-md max-w-prose">
         <img
           src="{{ $resized.RelPermalink }}"
           alt="{{ .Site.Params.Author.name }}"

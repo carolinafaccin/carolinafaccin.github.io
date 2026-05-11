@@ -5,23 +5,31 @@ lastmod: 2026-05-10
 
 ## Perfil
 
-Cresci em Santa Cruz do Sul, uma cidade de médio porte no interior do Rio Grande do Sul. Estudei Arquitetura e Urbanismo por lá, o que me deixou curiosa sobre como as cidades funcionam — embora eu tenha acabado passando mais tempo com bases de dados espaciais do que com pranchas e croquis.
+{{< icon "location-dot" >}} Cresci em Santa Cruz do Sul, uma cidade de médio porte no interior do Rio Grande do Sul. Estudei Arquitetura e Urbanismo por lá, o que me deixou curiosa sobre como as cidades funcionam — embora eu tenha acabado passando mais tempo com bases de dados espaciais do que com pranchas e croquis.
 
-Me mudei para Porto Alegre para fazer pós-graduação, onde concluí o mestrado e o doutorado em Planejamento Urbano e Regional. Em 2023, fiz as malas e passei alguns meses em Lisboa como pesquisadora visitante na Universidade de Lisboa, onde também comecei a programar em Python.
+{{< icon "graduation-cap" >}} Me mudei para Porto Alegre para fazer pós-graduação, onde concluí o mestrado e o doutorado em Planejamento Urbano e Regional. Em 2023, fiz as malas e passei alguns meses em Lisboa como pesquisadora visitante na Universidade de Lisboa, onde também comecei a programar em Python.
 
-Hoje atuo como Analista de Dados no Programa Cidades do WRI Brasil, com foco em adaptação urbana e resiliência climática. Meu trabalho envolve análise espacial, construção de índices e tradução de dados complexos em evidências que possam orientar decisões de planejamento.
+{{< icon "lightbulb" >}} Hoje atuo como Analista de Dados no Programa Cidades do WRI Brasil, com foco em adaptação urbana e resiliência climática. Meu trabalho envolve análise espacial, construção de índices e tradução de dados complexos em evidências que possam orientar decisões de planejamento.
 
-Moro em um apartamento aconchegante em Porto Alegre, a 5 minutos a pé do Lago Guaíba - onde gosto de caminhar e ver o pôr do sol - e a 2 horas de carro do litoral, onde minha família e eu adoramos passar os fins de semana.
+{{< icon "star" >}} Moro em um apartamento aconchegante em Porto Alegre, a 5 minutos a pé do Lago Guaíba - onde gosto de caminhar e ver o pôr do sol - e a 2 horas de carro do litoral, onde minha família e eu adoramos passar os fins de semana.
 
 ## Formação Acadêmica
 
-2021-2025 - **Doutorado em Planejamento Urbano e Regional** — UFRGS, Porto Alegre - RS, Brasil
+**Doutorado em Planejamento Urbano e Regional**
+*2021–2025*
+UFRGS — Porto Alegre, RS, Brasil
 
-2023–2024 - **Estágio Doutoral em Geografia** — Universidade de Lisboa, Lisboa - Portugal
+**Estágio Doutoral em Geografia**
+*2023–2024*
+Universidade de Lisboa — Lisboa, Portugal
 
-2019-2020 - **Mestrado em Planejamento Urbano e Regional** — UFRGS, Porto Alegre - RS, Brasil
+**Mestrado em Planejamento Urbano e Regional**
+*2019–2020*
+UFRGS — Porto Alegre, RS, Brasil
 
-2013–2018 - **Bacharelado em Arquitetura e Urbanismo** — UNISC, Santa Cruz do Sul - RS, Brasil
+**Bacharelado em Arquitetura e Urbanismo**
+*2013–2018*
+UNISC — Santa Cruz do Sul, RS, Brasil
 
 ## Publicações
 
