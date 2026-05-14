@@ -37,11 +37,11 @@ Reports delivered to [SEDUR](https://www.sedur.rs.gov.br/cidades) (Secretariat o
 
 **1\. Risk Zoning**
 
-  * [Arroio do Meio](https://carolinafaccin.wordpress.com/wp-content/uploads/2025/07/1a-zoneamento-de-risco-arroio-do-meio.pdf)
+  * [Arroio do Meio](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-arroio-do-meio.pdf)
   * [Colinas](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-colinas.pdf)
-  * [Cruzeiro do Sul](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-areas-de-risco-cruzeiro-do-sul.pdf)
+  * [Cruzeiro do Sul](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-cruzeiro-do-sul.pdf)
   * [Encantado](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-encantado.pdf)
-  * [Estrela](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-areas-de-risco-estrela.pdf)
+  * [Estrela](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-estrela.pdf)
   * [Muçum](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-mucum.pdf)
   * [Roca Sales](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-roca-sales.pdf)
 
