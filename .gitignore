@@ -21,7 +21,7 @@ __pycache__/
 wp_to_hugo.py
 download_images.py
 rename_images.py
-*.xml
+/*.xml
 venv/
 .claude/
 .aider*
