@@ -18,16 +18,32 @@ Bilíngue: inglês (padrão) e português do Brasil.
 ## Rodando localmente
 
 ```bash
-git clone --recurse-submodules https://github.com/carolinafaccin/carolinafaccin.github.io.git
+git clone --recurse-submodules --shallow-submodules https://github.com/carolinafaccin/carolinafaccin.github.io.git
 cd carolinafaccin.github.io
-
-# se já tiver clonado sem os submódulos:
-git submodule update --init --recursive
 
 hugo server -D    # http://localhost:1313 com live reload
 ```
 
 O tema Blowfish é um submódulo Git — sem ele o build não funciona.
+`--shallow-submodules` baixa só o commit atual do tema, não o histórico
+inteiro dele (economiza uns 500 MB).
+
+Se clonar pela interface do VSCode (ou qualquer outro jeito que não seja o
+comando acima), os submódulos não vêm junto. Rode depois:
+
+```bash
+git submodule update --init --depth 1
+```
+
+### Recriando o ambiente Python (scripts de migração, opcional)
+
+Só necessário se for usar os scripts de migração do WordPress (histórico do
+repo). Não é preciso para rodar o site:
+
+```bash
+python3 -m venv venv
+venv/bin/pip install -r requirements.txt
+```
 
 ## Estrutura
 
