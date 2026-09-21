@@ -5,7 +5,7 @@ geoespacial e planejamento urbano. Site estático construído com
 [Hugo](https://gohugo.io/) e o tema [Blowfish](https://blowfish.page/),
 publicado no GitHub Pages.
 
-🔗 **https://carolinafaccin.github.io**
+🔗 **[carolinafaccin.github.io](https://carolinafaccin.github.io)**
 
 Bilíngue: inglês (padrão) e português do Brasil.
 
