@@ -68,8 +68,20 @@ Push to `main` triggers `.github/workflows/deploy.yml`: installs Hugo extended,
 checks out with `submodules: recursive`, builds with `--minify`, and publishes
 `./public` to GitHub Pages. No manual deploy step.
 
-## Migration scripts (gitignored)
+## Setup on a new machine / what lives outside git
 
-`wp_to_hugo.py`, `download_images.py`, `rename_images.py` are one-off WordPress
-migration helpers run inside `venv/`. They are excluded from git and not part of
-the build.
+Everything needed to build and deploy is in this repo; nothing depends on `data_dir`/`raw_dir` (the Google Drive `Workspace/Data` catalog used by the data repos) or on untracked local files. A fresh clone is verified to build:
+
+```bash
+git clone --recurse-submodules --shallow-submodules https://github.com/carolinafaccin/carolinafaccin.github.io.git ~/Repositories/carolinafaccin.github.io
+cd ~/Repositories/carolinafaccin.github.io && hugo --minify
+```
+
+- Repo is ~950 MB (history of `static/img` and `static/pdf`); the shallow submodule flag skips the theme's history. If cloned without submodules: `git submodule update --init --depth 1`.
+- Gitignored and safe to lose (all regenerable or trivial): `public/`, `resources/_gen/`, `.hugo_build.lock`, `venv/` (see `requirements.txt`; only for the deleted migration scripts), `.claude/`, `.remember/`, `.vscode/`, `.aider*`, `.DS_Store`.
+- Original WordPress-era images (covers, photos, icon, logos) are only on Google Drive: `Personal/Portfolio/2024_wordpress_v2/` and `Personal/Portfolio/2025_portfolio_id_v3/`. Used versions are already in `static/` and `assets/`.
+- Migration scripts were deleted from the tree; recover them from git history (commit `de2b364`).
+
+## Migration scripts (removed)
+
+`wp_to_hugo.py`, `download_images.py`, `rename_images.py` were one-off WordPress migration helpers. They are no longer in the tree (see git history, commit `de2b364`) and are not part of the build.
