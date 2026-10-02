@@ -1,5 +1,5 @@
 ---
-title: "Dispersão da Covid-19"
+title: "Dispersão Territorial da Covid-19"
 date: 2022-03-15T10:00:00+00:00
 categories:
   - "Desenvolvimento Regional"

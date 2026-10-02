@@ -47,7 +47,8 @@ Forma Urbana e Uso do Solo, Housing & Inequality / Habitação e Desigualdade,
 Regional Development / Desenvolvimento Regional), `featured: <n>` (shows on
 the homepage "Selected work" in that order, 1 first; first 3 shown), and the facts-box fields `period`,
 `location`, `partners`, `role`, `data`, `tools`. `date` only orders projects
-(set it to the end of the period); dates, reading time and sharing are hidden.
+(set it to the end of the period); dates, reading time and sharing are hidden, and the
+project cards show `period` instead (`layouts/partials/article-meta/basic.html`).
 The two language trees must be kept in sync manually when adding pages.
 
 Project page body pattern: `{{< lead >}}` question, `{{< facts >}}`, then

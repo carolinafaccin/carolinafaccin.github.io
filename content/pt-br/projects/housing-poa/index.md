@@ -1,5 +1,5 @@
 ---
-title: "Habitação e Condomínios Fechados em Porto Alegre"
+title: "Condomínios Fechados em Porto Alegre"
 date: 2024-07-11T10:00:00+00:00
 featured: 2
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "Fragmentação Socioespacial em Santa Cruz do Sul-RS"
+title: "Fragmentação Urbana em uma Cidade Média"
 date: 2025-06-16T14:00:00+00:00
 categories:
   - "Habitação e Desigualdade"
