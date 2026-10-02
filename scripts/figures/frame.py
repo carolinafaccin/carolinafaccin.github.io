@@ -21,6 +21,8 @@ Image.MAX_IMAGE_PIXELS = None
 ROOT = Path(__file__).resolve().parents[2]
 DATA = Path(json.load(open(ROOT / "scripts" / "config.local.json"))["data_dir"]) / "figures"
 CANVAS_BG = (255, 255, 255)  # white: blends with the maps' own background (cream looked boxed on the dark theme)
+# Projects whose figures now come from their own repository (coastal: github.com/carolinafaccin/coastal)
+SKIP = {"coastal"}
 PAD = 0.04                   # padding as a share of the canvas short side
 FORMATS = {"wide": (2000, 1000), "landscape": (2000, 1500), "portrait": (1500, 2000), "square": (1800, 1800)}
 
@@ -64,6 +66,8 @@ def frame(im):
 
 def main(publish=False):
     for src in sorted((DATA / "v0").glob("*/*")):
+        if src.parent.name in SKIP:
+            continue
         slug, name = src.parent.name, src.stem
         out = DATA / "v1" / slug / f"{name}.webp"
         out.parent.mkdir(parents=True, exist_ok=True)

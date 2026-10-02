@@ -12,7 +12,7 @@ location: "Osório, Tramandaí and Imbé, North Coast of Rio Grande do Sul, Braz
 partners: "Co-authors Juliana Lombard de Souza and Guilherme Kruger Dalcin"
 role: "Lead author: research design, data processing in Python, spatial analysis and maps."
 data: ["MapBiomas land use and land cover (1985–2023)", "IBGE demographic censuses (1991–2022)", "Google Open Buildings"]
-tools: ["Python (Jupyter)", "QGIS", "Land-cover change analysis"]
+tools: ["Python (GeoPandas, Matplotlib)", "Land-cover change analysis", "Reproducible pipeline"]
 ---
 
 {{< lead >}}
@@ -48,19 +48,29 @@ Where and how urban growth advanced over sensitive ecosystems
 
 - The coastal urban agglomeration's urbanized area grew by **60%**, from 112 km² (1985) to 180 km² (2023).
 - The region's population grew **25.8%** between 2010 and 2022; Imbé's population multiplied **3.6 times** between 1991 and 2022.
-- Three distinct patterns: **dispersed, fragmented sprawl** in Osório; continuous growth and **densification** in Tramandaí (+26% urbanized area); fast, **seasonal growth** in Imbé (+17%), encroaching on dunes and coastal vegetation (beach and dune cover fell by about 40%).
+- Three distinct patterns: **dispersed, fragmented sprawl** in Osório (+79%); continuous growth and **densification** in Tramandaí (+26%); fast, **seasonal growth** in Imbé (+17%), encroaching on dunes and coastal vegetation (beach and dune cover fell by 40% in Imbé and 30% in Tramandaí).
+- Overlaying the 2023 urban area on the 1985 land cover shows what it replaced: **51% of the new urban land in AULINOR was beach, dune, restinga or wetland, rising to 85% in Tramandaí and 76% in Imbé**.
 
 ## Why it matters
 
 The results are a warning for coastal planning: urbanization is advancing over areas of high environmental sensitivity, and conurbation means one municipality's choices affect its neighbors. The paper argues for integrated territorial and environmental management with regional solutions.
 
+I later rebuilt the calculations as an open, reproducible Python pipeline that checks its results against the numbers published in the paper: [code and data on GitHub](https://github.com/carolinafaccin/coastal).
+
 [Read the paper (PT)](https://seer.ufrgs.br/index.php/paraonde/article/view/150243): Faccin, Souza & Dalcin (2026), *Patterns of urban transformation and land use and land cover on the North Coast: Osório, Tramandaí and Imbé*.
 
-## Maps
+## Figures
 
-{{< fig src="/img/projects/coastal/coastal_03.webp" alt="Land-cover maps of Osório, Tramandaí and Imbé in 1985 and 2023 next to stacked area charts per municipality, showing urban area growing while beach, dune and grassland classes shrink" caption="Land use and land cover in 1985 and 2023, with change by class for each municipality (MapBiomas)." >}}
+Produced by the open pipeline above.
 
-{{< figs cols="2" >}}
-{{< fig src="/img/projects/coastal/coastal_02.webp" alt="Map of the three municipalities showing urbanized area in 1985 in red and in 2023 in light orange, with labels of +2.6 km² (+17.1%) for Imbé and +4.7 km² (+26.2%) for Tramandaí" caption="Urbanized area in 1985 and 2023." >}}
-{{< fig src="/img/projects/coastal/coastal_01.webp" alt="Two maps of Rio Grande do Sul: annual population growth by regional council, highest on the coast, and the coastal urban hierarchy with links to Porto Alegre" caption="Regional context: population growth by region and the coastal urban hierarchy." >}}
-{{< /figs >}}
+{{< fig src="/img/projects/coastal/map_urban_expansion.webp" alt="Map of Osório, Tramandaí and Imbé: urban area in 1985 in dark rust, concentrated along the shoreline and in Osório's center, and new urban area by 2023 in orange, spreading around Osório and along the coast" caption="Urban area in 1985 and new urban area by 2023." >}}
+
+{{< fig src="/img/projects/coastal/urban_timeline.webp" alt="Line chart of urban area from 1985 to 2023: Tramandaí from 18.0 to 22.7 km² (+26%), Imbé from 15.5 to 18.1 km² (+17%) and Osório from 9.7 to 17.3 km² (+79%)" caption="Urban area, 1985–2023 (km²)." >}}
+
+{{< fig src="/img/projects/coastal/urban_growth.webp" alt="Dumbbell chart of urban area in 1985 and 2023 for the AULINOR municipalities, from Capão da Canoa and Tramandaí at the top to Capivari do Sul at the bottom, with the percentage growth of each" caption="Where the urban area grew across the 20 AULINOR municipalities." >}}
+
+{{< fig src="/img/projects/coastal/land_replaced.webp" alt="Stacked bars with the 1985 land cover of the new urban area: beach, dune and wetland classes dominate in Imbé (76% sensitive) and Tramandaí (85%), and pasture and crops in AULINOR overall" caption="What the new urban land replaced (1985 land cover)." >}}
+
+{{< fig src="/img/projects/coastal/landcover_change.webp" alt="Three stacked area charts of land cover by group from 1985 to 2023 for Osório, Tramandaí and Imbé, with the urban class growing at the top while beach and dune, restinga and wetland shrink" caption="Land cover by group, 1985–2023." >}}
+
+{{< fig src="/img/projects/coastal/map_landcover.webp" alt="Land-cover maps of Osório, Tramandaí and Imbé in 1985 and 2023, with urban area in orange along the coast, forestry plantations in dark rust spreading inland and a beach and dune strip in yellow in the south" caption="Land cover in 1985 and 2023." >}}

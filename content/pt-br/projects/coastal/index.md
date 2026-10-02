@@ -12,7 +12,7 @@ location: "Osório, Tramandaí e Imbé, Litoral Norte do RS"
 partners: "Coautoria com Juliana Lombard de Souza e Guilherme Kruger Dalcin"
 role: "Autora principal: desenho da pesquisa, processamento de dados em Python, análise espacial e mapas."
 data: ["MapBiomas uso e cobertura da terra (1985–2023)", "Censos demográficos IBGE (1991–2022)", "Google Open Buildings"]
-tools: ["Python (Jupyter)", "QGIS", "Análise de mudança de cobertura do solo"]
+tools: ["Python (GeoPandas, Matplotlib)", "Análise de mudança de cobertura do solo", "Pipeline reproduzível"]
 ---
 
 {{< lead >}}
@@ -48,19 +48,29 @@ Onde e como a urbanização avançou sobre ecossistemas sensíveis
 
 - A área urbanizada da aglomeração urbana do Litoral Norte cresceu **60%**, de 112 km² (1985) para 180 km² (2023).
 - A população da região cresceu **25,8%** entre 2010 e 2022; a de Imbé se multiplicou por **3,6** entre 1991 e 2022.
-- Três padrões distintos: **espraiamento disperso e fragmentado** em Osório; crescimento contínuo e **adensamento** em Tramandaí (+26% de área urbanizada); crescimento **sazonal** e rápido em Imbé (+17%), avançando sobre dunas e restinga (a cobertura de praia e duna caiu cerca de 40%).
+- Três padrões distintos: **espraiamento disperso e fragmentado** em Osório (+79%); crescimento contínuo e **adensamento** em Tramandaí (+26%); crescimento **sazonal** e rápido em Imbé (+17%), avançando sobre dunas e restinga (a cobertura de praia e duna caiu 40% em Imbé e 30% em Tramandaí).
+- Ao sobrepor a área urbana de 2023 à cobertura do solo de 1985, vê-se o que ela substituiu: **51% da nova área urbana da AULINOR era praia, duna, restinga ou banhado, chegando a 85% em Tramandaí e 76% em Imbé**.
 
 ## Por que importa
 
 Os resultados são um alerta para o planejamento costeiro: a urbanização avança sobre áreas de alta sensibilidade ambiental, e a conurbação faz com que as escolhas de um município afetem os vizinhos. O artigo defende uma gestão territorial e ambiental integrada, com soluções regionalizadas.
 
+Depois, reconstruí os cálculos em um pipeline aberto e reproduzível em Python, que confere seus resultados com os números publicados no artigo: [código e dados no GitHub](https://github.com/carolinafaccin/coastal).
+
 [Leia o artigo](https://seer.ufrgs.br/index.php/paraonde/article/view/150243): Faccin, Souza & Dalcin (2026), *Padrões de transformação urbana e de uso e cobertura da terra no litoral norte: o caso de Osório, Tramandaí e Imbé*.
 
-## Mapas
+## Figuras
 
-{{< fig src="/img/projects/coastal/coastal_03.webp" alt="Mapas de cobertura do solo de Osório, Tramandaí e Imbé em 1985 e 2023 ao lado de gráficos de área por município, mostrando o crescimento da área urbana e a redução de praias, dunas e campos" caption="Uso e cobertura da terra em 1985 e 2023, com a variação de cada classe por município (MapBiomas)." >}}
+Produzidas pelo pipeline aberto acima (legendas internas em inglês).
 
-{{< figs cols="2" >}}
-{{< fig src="/img/projects/coastal/coastal_02.webp" alt="Mapa dos três municípios com a área urbanizada em 1985 em vermelho e em 2023 em laranja claro, com rótulos de +2,6 km² (+17,1%) para Imbé e +4,7 km² (+26,2%) para Tramandaí" caption="Área urbanizada em 1985 e 2023." >}}
-{{< fig src="/img/projects/coastal/coastal_01.webp" alt="Dois mapas do Rio Grande do Sul: crescimento populacional anual por COREDE, maior no litoral, e a hierarquia urbana do litoral com ligações a Porto Alegre" caption="Contexto regional: crescimento populacional e hierarquia urbana do litoral." >}}
-{{< /figs >}}
+{{< fig src="/img/projects/coastal/map_urban_expansion.webp" alt="Mapa de Osório, Tramandaí e Imbé: área urbana em 1985 em ferrugem escuro, concentrada no litoral e no centro de Osório, e nova área urbana até 2023 em laranja, espalhada ao redor de Osório e ao longo da costa" caption="Área urbana em 1985 e nova área urbana até 2023." >}}
+
+{{< fig src="/img/projects/coastal/urban_timeline.webp" alt="Gráfico de linhas da área urbana de 1985 a 2023: Tramandaí de 18,0 a 22,7 km² (+26%), Imbé de 15,5 a 18,1 km² (+17%) e Osório de 9,7 a 17,3 km² (+79%)" caption="Área urbana, 1985–2023 (km²)." >}}
+
+{{< fig src="/img/projects/coastal/urban_growth.webp" alt="Gráfico de halteres da área urbana em 1985 e 2023 nos municípios da AULINOR, de Capão da Canoa e Tramandaí no topo a Capivari do Sul na base, com o crescimento percentual de cada um" caption="Onde a área urbana cresceu nos 20 municípios da AULINOR." >}}
+
+{{< fig src="/img/projects/coastal/land_replaced.webp" alt="Barras empilhadas com a cobertura do solo em 1985 da nova área urbana: praia, duna e banhado dominam em Imbé (76% sensíveis) e Tramandaí (85%), e pastagem e lavouras na AULINOR como um todo" caption="O que a nova área urbana substituiu (cobertura do solo em 1985)." >}}
+
+{{< fig src="/img/projects/coastal/landcover_change.webp" alt="Três gráficos de área empilhada da cobertura do solo por grupo de 1985 a 2023 em Osório, Tramandaí e Imbé, com a classe urbana crescendo no topo enquanto praia e duna, restinga e banhado diminuem" caption="Cobertura do solo por grupo, 1985–2023." >}}
+
+{{< fig src="/img/projects/coastal/map_landcover.webp" alt="Mapas de cobertura do solo de Osório, Tramandaí e Imbé em 1985 e 2023, com área urbana em laranja ao longo da costa, silvicultura em ferrugem avançando para o interior e uma faixa de praia e duna em amarelo no sul" caption="Cobertura do solo em 1985 e 2023." >}}
