@@ -19,7 +19,7 @@ from PIL import Image
 
 Image.MAX_IMAGE_PIXELS = None
 ROOT = Path(__file__).resolve().parents[2]
-DATA = Path(json.load(open(ROOT / "config.local.json"))["data_dir"]) / "figures"
+DATA = Path(json.load(open(ROOT / "scripts" / "config.local.json"))["data_dir"]) / "figures"
 CANVAS_BG = (255, 255, 255)  # white: blends with the maps' own background (cream looked boxed on the dark theme)
 PAD = 0.04                   # padding as a share of the canvas short side
 FORMATS = {"wide": (2000, 1000), "landscape": (2000, 1500), "portrait": (1500, 2000), "square": (1800, 1800)}

@@ -26,4 +26,4 @@ venv/
 # OSM extracts downloaded by scripts/covers/fetch.py
 scripts/covers/*.json
 
-config.local.json
+scripts/config.local.json
