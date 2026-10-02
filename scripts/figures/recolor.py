@@ -14,7 +14,7 @@ import sys
 import numpy as np
 from PIL import Image
 
-from frame import DATA, ROOT, flatten, frame
+from frame import DATA, ROOT, SKIP, flatten, frame
 
 # Brand palette
 CREAM, GREY, OLIVE = "#FFF8F2", "#DAD2CC", "#383C2F"
@@ -47,12 +47,6 @@ MAPS = {
         "#84cfd3": WATER},
     **{f"floods-in-small-cities/floods-rs_0{i}": FLOODS for i in range(1, 8)},
     # Population growth: decline = rust/orange, stable = grey, growth = sage
-    "coastal/coastal_01": {
-        "#d7191c": RUST, "#f59053": ORANGE, "#fcb567": ORANGE_L, "#fce2ad": GREY,
-        "#cceaae": SAGE_L, "#7ac473": SAGE, "#226a1d": SAGE_D, "#b56e4d": RUST,
-        "#a5bfdd": WATER},
-    "coastal/coastal_02": {"#d4271e": RUST, "#fdbf6f": ORANGE_L, "#fecf92": ORANGE_L,
-                           "#a5bfdd": WATER},
     "housing-porto-alegre/housing-poa_01": {
         "#fec0c1": PEACH, "#fb9c9a": ORANGE_L, "#fe8083": ORANGE, "#fe4241": RUST,
         "#a0cede": SAGE_L, "#b5df8b": SAGE},
@@ -91,6 +85,8 @@ def recolor(im, mapping, tol=26.0):
 
 def main(publish=False):
     for src in sorted((DATA / "v0").glob("*/*")):
+        if src.parent.name in SKIP:
+            continue
         key = f"{src.parent.name}/{src.stem}"
         out = DATA / "v2" / src.parent.name / f"{src.stem}.webp"
         out.parent.mkdir(parents=True, exist_ok=True)

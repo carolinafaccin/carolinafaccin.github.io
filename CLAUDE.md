@@ -54,7 +54,7 @@ Project page body pattern: `{{< lead >}}` question, `{{< facts >}}`, then
 challenge / approach (with a `{{< flow >}}` + `{{< step >}}` methodology
 diagram) / results / why it matters / links / maps (`{{< figs cols="2" >}}` +
 `{{< fig src alt caption >}}`). Every figure needs real alt text.
-Figures live in `static/img/projects/<slug>/` as WebP, max 2000 px.
+Figures live in `static/img/projects/<slug>/` as WebP, max 2000 px. The `coastal` figures come from its own repository (github.com/carolinafaccin/coastal, `pipeline.py` writes PNGs to that repo's `data_dir`); they were converted to WebP by hand and `scripts/figures/` skips that project (`SKIP` in `frame.py`).
 
 **Layout overrides live in `layouts/` and shadow the theme** in
 `themes/blowfish/layouts/`. Hugo merges these, with the project root winning.
