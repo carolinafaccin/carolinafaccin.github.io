@@ -48,3 +48,6 @@ enableCodeCopy = true
   websiteid = "273c4fa3-d3ba-45c7-a4e9-b2aae212af22"
   domain = "cloud.umami.is"
   dataDomains = "carolinafaccin.github.io"
+
+[verification]
+  google = "5tXLK2sqGG8eA1BUyVqsfqFezHzQXFRSXAYVmrRsz9Y"
