@@ -83,7 +83,9 @@ peach #FFD5C2, yellow #FFD348, orange #D94701, rust #7E2704, sage #92A87E, light
 #CCD5C2, dark olive #383D2F, ink #1F2417; motif is thin street-block linework. Files
 here that come from it (do not edit, run `npm run sync` in lina-brand):
 `assets/css/schemes/carolina.css` (`colorScheme = "carolina"`), `static/icon.png`,
-`assets/img/icon.png` and `scripts/brand.py` (colors for the covers and the v2 recolor).
+`assets/img/icon.png`, the favicons (`static/favicon.ico`, `favicon.svg`, `apple-touch-icon.png`,
+`icon-192.png`; linked in `layouts/partials/favicons.html` with `static/site.webmanifest`)
+and `scripts/brand.py` (colors for the covers and the v2 recolor).
 Extra styles in `assets/css/custom.css`.
 
 **Project covers** are generated from OpenStreetMap street networks of each study
