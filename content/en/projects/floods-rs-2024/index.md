@@ -1,6 +1,7 @@
 ---
 title: "2024 Floods of Small Cities in RS, Brazil"
 date: 2024-09-23T11:00:00+00:00
+featured: 3
 categories:
   - "Climate & Environment"
 draft: false

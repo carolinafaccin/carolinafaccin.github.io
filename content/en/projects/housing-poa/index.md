@@ -1,7 +1,7 @@
 ---
 title: "Housing and Gated Communities in Porto Alegre"
 date: 2024-07-11T10:00:00+00:00
-featured: true
+featured: 2
 categories:
   - "Housing & Inequality"
   - "Urban Form & Land Use"

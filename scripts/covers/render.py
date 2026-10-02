@@ -9,8 +9,11 @@ from PIL import Image,ImageDraw
 D=os.path.dirname(os.path.abspath(__file__))
 OUT=sys.argv[1]
 W,H=1600,900; K=2
-C=dict(olive=(56,60,47),dark=(31,35,24),rust=(123,36,5),orange=(217,68,0),sage=(147,169,126),
-       sagel=(205,215,197),peach=(254,210,191),cream=(255,248,242),yellow=(253,211,74),grey=(218,210,204))
+sys.path.insert(0,os.path.dirname(D))
+import brand  # scripts/brand.py, synced from the lina-brand repository
+rgb=lambda h:tuple(int(h[i:i+2],16) for i in (1,3,5))
+C={k:rgb(v) for k,v in dict(olive=brand.OLIVE,dark=brand.DARK,rust=brand.RUST,
+   orange=brand.ORANGE,sage=brand.SAGE,sagel=brand.SAGE_LIGHT,peach=brand.PEACH,cream=brand.CREAM,yellow=brand.YELLOW,grey=brand.GREY).items()}
 SCHEMES={ # bg, line, accent
  'climate':('olive','sagel','orange'),
  'form':('sage','olive','rust'),

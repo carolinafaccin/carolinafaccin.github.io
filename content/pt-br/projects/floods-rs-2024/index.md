@@ -1,6 +1,7 @@
 ---
 title: "Enchentes de 2024 em Pequenas Cidades do RS"
 date: 2024-09-23T11:00:00+00:00
+featured: 3
 categories:
   - "Clima e Ambiente"
 draft: false

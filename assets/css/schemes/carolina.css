@@ -1,11 +1,10 @@
-/* Carolina — brand palette (juji identity, 2025)
-   Anchors: cream #FFF8F2, warm grey #DAD2CC, dark olive #383C2F, ink #1F2318
-   (ink = neutral-800, the dark-mode background),
-   sage #93A97E, light sage #CDD7C5, orange #D94400, rust #7B2405, peach #FED2BF,
-   yellow #FDD34A (used sparingly as highlight in custom.css) */
+/* Carolina — esquema de cores do site (identidade visual Juji, 2025).
+   GERADO por lina-brand/scripts/build.mjs — não edite à mão; edite tokens/tokens.json ou palettes/palettes.json.
+   O amarelo (#FFD348) é usado só como realce, em custom.css. */
 :root {
-  --color-neutral: 255, 248, 242;
-  --color-neutral-50:  255, 248, 242;
+  /* Neutros: creme → tinta (tinta = neutral-800, fundo do modo escuro) */
+  --color-neutral: 255, 248, 243;
+  --color-neutral-50: 255, 248, 243; /* #FFF8F3, designer */
   --color-neutral-100: 247, 241, 235;
   --color-neutral-200: 218, 210, 204;
   --color-neutral-300: 196, 190, 180;
@@ -13,28 +12,28 @@
   --color-neutral-500: 115, 116, 100;
   --color-neutral-600:  86,  89,  74;
   --color-neutral-700:  69,  73,  59;
-  --color-neutral-800:  31,  35,  24;
+  --color-neutral-800:  31,  36,  23; /* #1F2417, designer */
   --color-neutral-900:  20,  23,  15;
-  /* Sage primary */
-  --color-primary-50:  245, 247, 242;
+  /* Primária: sálvia */
+  --color-primary-50: 245, 247, 242;
   --color-primary-100: 230, 236, 225;
-  --color-primary-200: 205, 215, 197;
+  --color-primary-200: 204, 213, 194; /* #CCD5C2, designer */
   --color-primary-300: 176, 194, 160;
-  --color-primary-400: 147, 169, 126;
+  --color-primary-400: 146, 168, 126; /* #92A87E, designer */
   --color-primary-500: 118, 140,  98;
   --color-primary-600:  92, 112,  76;
   --color-primary-700:  70,  86,  58;
   --color-primary-800:  52,  62,  44;
   --color-primary-900:  37,  42,  31;
-  /* Orange → rust secondary */
-  --color-secondary-50:  255, 241, 234;
+  /* Secundária: laranja → ferrugem */
+  --color-secondary-50: 255, 241, 234;
   --color-secondary-100: 254, 226, 213;
-  --color-secondary-200: 254, 210, 191;
+  --color-secondary-200: 255, 213, 194; /* #FFD5C2, designer */
   --color-secondary-300: 245, 160, 120;
   --color-secondary-400: 234, 104,  48;
-  --color-secondary-500: 217,  68,   0;
+  --color-secondary-500: 217,  71,   1; /* #D94701, designer */
   --color-secondary-600: 180,  55,   3;
   --color-secondary-700: 150,  45,   5;
-  --color-secondary-800: 123,  36,   5;
+  --color-secondary-800: 126,  39,   4; /* #7E2704, designer */
   --color-secondary-900:  84,  24,   4;
 }

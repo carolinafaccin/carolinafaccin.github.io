@@ -1,7 +1,7 @@
 ---
 title: "Índice de Aptidão Urbana Pós-Desastres"
 date: 2025-07-08T09:00:00+00:00
-featured: true
+featured: 1
 categories:
   - "Clima e Ambiente"
 draft: false

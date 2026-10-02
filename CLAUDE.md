@@ -44,8 +44,8 @@ loaded by Hugo automatically — there is no top-level `hugo.toml`:
 Project front matter: `summary`, `categories` (one of four theme groups, named
 per language: Climate & Environment / Clima e Ambiente, Urban Form & Land Use /
 Forma Urbana e Uso do Solo, Housing & Inequality / Habitação e Desigualdade,
-Regional Development / Desenvolvimento Regional), `featured: true` (shows on
-the homepage "Selected work", newest 3), and the facts-box fields `period`,
+Regional Development / Desenvolvimento Regional), `featured: <n>` (shows on
+the homepage "Selected work" in that order, 1 first; first 3 shown), and the facts-box fields `period`,
 `location`, `partners`, `role`, `data`, `tools`. `date` only orders projects
 (set it to the end of the period); dates, reading time and sharing are hidden.
 The two language trees must be kept in sync manually when adding pages.
@@ -67,7 +67,7 @@ Notable custom overrides:
   `site.Taxonomies.categories`
 - `layouts/partials/head.html` (home title from `params.homeTitle`, social
   image fallback), `extend-head.html` (Source Code Pro), `favicons.html`
-- `layouts/partials/recent-articles/main.html` — homepage "Selected work" +
+- `layouts/partials/recent-articles/main.html` — homepage "Selected work" (ordered by `featured`) +
   "See all projects" button
 - `layouts/partials/header/basic.html` — copy of theme header, only adds logo alt
 - `layouts/shortcodes/facts.html`, `flow.html`, `step.html`, `figs.html`,
@@ -77,13 +77,14 @@ Notable custom overrides:
 When changing site appearance, check whether the relevant template is
 overridden here before editing the theme submodule (don't edit the submodule).
 
-**Brand identity** (designer "juji", 2025; files in Google Drive
-`Personal/Portfolio/2025_portfolio_id_v3/juji_id_visual/`): typeface Source Code
-Pro; palette cream #FFF8F2, warm grey #DAD2CC, dark olive #383C2F, ink #1F2318,
-sage #93A97E, light sage #CDD7C5, orange #D94400, rust #7B2405, peach #FED2BF,
-yellow #FDD34A; motif is thin street-block linework. The color scheme
-`assets/css/schemes/carolina.css` (`colorScheme = "carolina"`) is built on these
-anchors; extra styles in `assets/css/custom.css`.
+**Brand identity** lives in the private repository `lina-brand` (sibling folder in
+`~/Repositories`; designer Juji, 2025): typeface Source Code Pro; palette cream #FFF8F3,
+peach #FFD5C2, yellow #FFD348, orange #D94701, rust #7E2704, sage #92A87E, light sage
+#CCD5C2, dark olive #383D2F, ink #1F2417; motif is thin street-block linework. Files
+here that come from it (do not edit, run `npm run sync` in lina-brand):
+`assets/css/schemes/carolina.css` (`colorScheme = "carolina"`), `static/icon.png`,
+`assets/img/icon.png` and `scripts/brand.py` (colors for the covers and the v2 recolor).
+Extra styles in `assets/css/custom.css`.
 
 **Project covers** are generated from OpenStreetMap street networks of each study
 area in brand colors (background = theme group). Scripts: `scripts/covers/`

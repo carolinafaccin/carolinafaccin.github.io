@@ -10,16 +10,16 @@ Usage: python scripts/figures/recolor.py [--publish]   (needs Pillow, numpy)
 """
 import shutil
 import sys
+from pathlib import Path
 
 import numpy as np
 from PIL import Image
 
 from frame import DATA, ROOT, flatten, frame, site_slug, skipped
 
-# Brand palette
-CREAM, GREY, OLIVE = "#FFF8F2", "#DAD2CC", "#383C2F"
-SAGE_L, SAGE, SAGE_D = "#CDD7C5", "#93A97E", "#5C704C"
-YELLOW, PEACH, ORANGE_L, ORANGE, RUST = "#FDD34A", "#FED2BF", "#F5A078", "#D94400", "#7B2405"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from brand import (CREAM, GREY, OLIVE, ORANGE, ORANGE_LIGHT as ORANGE_L, PEACH, RUST,  # noqa: E402
+                   SAGE, SAGE_DARK as SAGE_D, SAGE_LIGHT as SAGE_L, YELLOW)  # scripts/brand.py (lina-brand)
 WATER = SAGE_L
 
 FLOODS = {"#f3d9c0": PEACH, "#a3c8e2": WATER, "#e31a1c": ORANGE, "#ff0000": ORANGE}

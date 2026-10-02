@@ -1,7 +1,6 @@
 ---
 title: "Padrões de Transformação Urbana em Cidades Costeiras"
 date: 2025-08-14T10:00:00+00:00
-featured: true
 categories:
   - "Clima e Ambiente"
   - "Forma Urbana e Uso do Solo"

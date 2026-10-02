@@ -1,7 +1,7 @@
 ---
 title: "Habitação e Condomínios Fechados em Porto Alegre"
 date: 2024-07-11T10:00:00+00:00
-featured: true
+featured: 2
 categories:
   - "Habitação e Desigualdade"
   - "Forma Urbana e Uso do Solo"
