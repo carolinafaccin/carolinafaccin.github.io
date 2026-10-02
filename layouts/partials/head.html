@@ -193,6 +193,7 @@
 
   {{/* Schema */}}
   {{ partial "schema.html" . }}
+  {{ if or .IsHome (eq .Section "about") }}{{ partial "person-schema.html" . }}{{ end }}
 
   {{/* Analytics */}}
   {{ if hugo.IsProduction }}

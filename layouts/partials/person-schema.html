@@ -1,0 +1,19 @@
+{{/* Person (home and About): tells search engines that this site, the author's profiles and her name are one entity. */}}
+{{- $a := site.Params.author -}}
+{{- $same := slice "https://www.wri.org/profile/carolina-faccin" -}}
+{{- range $a.links }}{{ range $k, $v := . }}{{ if ne $k "email" }}{{ $same = $same | append $v }}{{ end }}{{ end }}{{ end -}}
+{{- $p := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "@id" (printf "%s#person" ("" | absURL))
+  "name" $a.name
+  "url" ("" | absURL)
+  "image" ((resources.Get $a.image).Permalink)
+  "jobTitle" $a.headline
+  "description" site.Params.description
+  "worksFor" (dict "@type" "Organization" "name" "WRI Brasil" "url" "https://www.wribrasil.org.br")
+  "homeLocation" (dict "@type" "Place" "name" $a.location)
+  "knowsAbout" (slice "Geographic information systems" "Spatial analysis" "Urban planning" "Climate resilience" "Python")
+  "sameAs" $same
+-}}
+<script type="application/ld+json">{{ $p | jsonify | safeJS }}</script>
