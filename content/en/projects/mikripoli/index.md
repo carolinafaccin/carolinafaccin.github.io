@@ -73,12 +73,3 @@ The census and neighborhood maps are produced by the open pipeline above.
 {{< fig src="/img/projects/mikripoli/map_tracts.webp" alt="Grid of nine maps: census tracts of Sobradinho, Rio Pardo and Encantado colored by residents per tract, residents per dwelling and mean income of the household head in 2010, with the highest incomes in the town centers" caption="Population, household size and income by census tract (2010)." >}}
 
 {{< fig src="/img/projects/mikripoli/map_neighborhoods.webp" alt="Three maps of the urban neighborhoods of Sobradinho, Rio Pardo and Encantado, shaded by number of residents and labeled by name, with main roads and rivers" caption="Neighborhoods of the three case-study towns." >}}
-
-The regional urban network over time (IBGE REGIC):
-
-{{< figs cols="2" >}}
-{{< fig src="/img/projects/mikripoli/small-cities_03.webp" alt="Map of the Vales Region urban network in 1966 with few hierarchical levels and lines of influence pointing to Porto Alegre" caption="Urban network in 1966." >}}
-{{< fig src="/img/projects/mikripoli/small-cities_04.webp" alt="Map of the Vales Region urban network in 1978 with sub-regional centers and lines of influence" caption="1978." >}}
-{{< fig src="/img/projects/mikripoli/small-cities_05.webp" alt="Map of the Vales Region urban network in 1993 with centrality levels from very weak to maximum" caption="1993." >}}
-{{< fig src="/img/projects/mikripoli/small-cities_06.webp" alt="Map of the Vales Region urban network in 2007 with regional capitals, sub-regional centers and many more local centers and links" caption="2007." >}}
-{{< /figs >}}
