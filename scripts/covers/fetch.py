@@ -14,11 +14,11 @@ CITY='way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|re
 REG='way["highway"~"^(motorway|trunk|primary|secondary)$"]{b};way["waterway"="river"]{b};way["natural"="coastline"]{b};way["railway"="rail"]{b};node["place"~"^(city|town)$"]{b};'
 SPECS={
  'urban-suitability-index-post-disasters':(-29.168,-51.880,0.02,CITY),
- 'floods-in-small-cities':(-29.475,-51.955,0.10,CITY),
+ 'floods-rs-2024':(-29.475,-51.955,0.10,CITY),
  'coastal':(-29.982,-50.138,0.05,CITY),
- 'small-cities-dynamics':(-29.238,-51.874,0.028,CITY),
- 'housing-porto-alegre':(-30.085,-51.225,0.09,CITY),
- 'sociospatial-fragmentation':(-29.715,-52.43,0.075,CITY),
+ 'mikripoli':(-29.238,-51.874,0.028,CITY),
+ 'housing-poa':(-30.085,-51.225,0.09,CITY),
+ 'urb-frag':(-29.715,-52.43,0.075,CITY),
  'territorial-management-role-of-medium-sized-cities':(-29.69,-53.81,0.08,CITY),
  'territorial-division-of-labor-and-urban-network':(-29.55,-52.15,1.1,REG),
  'polycentrism-and-regional-development':(-28.6,-52.9,2.6,REG.replace('secondary','secondary_DISABLED')),

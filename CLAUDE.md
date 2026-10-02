@@ -54,7 +54,7 @@ Project page body pattern: `{{< lead >}}` question, `{{< facts >}}`, then
 challenge / approach (with a `{{< flow >}}` + `{{< step >}}` methodology
 diagram) / results / why it matters / links / maps (`{{< figs cols="2" >}}` +
 `{{< fig src alt caption >}}`). Every figure needs real alt text.
-Figures live in `static/img/projects/<slug>/` as WebP, max 2000 px. The `coastal` figures come from its own repository (github.com/carolinafaccin/coastal, `pipeline.py` writes PNGs to that repo's `data_dir`); they were converted to WebP by hand and `scripts/figures/` skips that project (`SKIP` in `frame.py`).
+Figures live in `static/img/projects/<slug>/` as WebP, max 2000 px. Five projects have their own public repository (github.com/carolinafaccin/<repo>, cloned next to this one in `~/Repositories`), whose `pipeline.py` draws the figures and copies them to `docs/img/`: `coastal`, `housing-poa`, `floods-rs-2024`, `urb-frag` and `mikripoli` (slug = repo name). `python scripts/figures/from_repos.py [slug]` converts them to WebP here. The older figures (v1 frame, v2 recolor) come from `scripts/figures/frame.py` and `recolor.py`, which skip the repository projects (`SKIP`, `SKIP_FILES`; their `data_dir` folders keep the old slugs, mapped by `RENAMED`). Old project URLs (`housing-porto-alegre`, `floods-in-small-cities`, `sociospatial-fragmentation`, `small-cities-dynamics`) redirect through front-matter `aliases`.
 
 **Layout overrides live in `layouts/` and shadow the theme** in
 `themes/blowfish/layouts/`. Hugo merges these, with the project root winning.
