@@ -73,12 +73,3 @@ Os mapas censitários e de bairros são produzidos pelo pipeline aberto acima (l
 {{< fig src="/img/projects/mikripoli/map_tracts.webp" alt="Grade de nove mapas: setores censitários de Sobradinho, Rio Pardo e Encantado coloridos por moradores por setor, moradores por domicílio e renda média do responsável em 2010, com as rendas mais altas nos centros" caption="População, moradores por domicílio e renda por setor censitário (2010)." >}}
 
 {{< fig src="/img/projects/mikripoli/map_neighborhoods.webp" alt="Três mapas dos bairros urbanos de Sobradinho, Rio Pardo e Encantado, coloridos pelo número de moradores e identificados pelo nome, com as vias principais e os rios" caption="Bairros das três cidades estudadas." >}}
-
-A rede urbana regional ao longo do tempo (IBGE REGIC):
-
-{{< figs cols="2" >}}
-{{< fig src="/img/projects/mikripoli/small-cities_03.webp" alt="Mapa da rede urbana da Região dos Vales em 1966, com poucos níveis hierárquicos e linhas de influência apontando para Porto Alegre" caption="Rede urbana em 1966." >}}
-{{< fig src="/img/projects/mikripoli/small-cities_04.webp" alt="Mapa da rede urbana da Região dos Vales em 1978, com centros sub-regionais e linhas de influência" caption="1978." >}}
-{{< fig src="/img/projects/mikripoli/small-cities_05.webp" alt="Mapa da rede urbana da Região dos Vales em 1993, com níveis de centralidade de muito fraco a máximo" caption="1993." >}}
-{{< fig src="/img/projects/mikripoli/small-cities_06.webp" alt="Mapa da rede urbana da Região dos Vales em 2007, com capitais regionais, centros sub-regionais e muito mais centros locais e ligações" caption="2007." >}}
-{{< /figs >}}
