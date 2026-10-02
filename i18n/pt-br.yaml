@@ -9,3 +9,6 @@ facts_partners: "Parceiros"
 facts_data: "Dados"
 facts_tools: "Ferramentas e métodos"
 facts_links: "Links"
+
+last_updated:
+  other: "Atualizado em"
