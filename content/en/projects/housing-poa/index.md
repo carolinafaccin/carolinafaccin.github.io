@@ -1,5 +1,5 @@
 ---
-title: "Housing and Gated Communities in Porto Alegre"
+title: "Gated Communities in Porto Alegre"
 date: 2024-07-11T10:00:00+00:00
 featured: 2
 categories:

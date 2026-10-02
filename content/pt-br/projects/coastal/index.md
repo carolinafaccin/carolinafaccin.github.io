@@ -1,5 +1,5 @@
 ---
-title: "Padrões de Transformação Urbana em Cidades Costeiras"
+title: "Dinâmicas Urbanas em Cidades Costeiras"
 date: 2025-08-14T10:00:00+00:00
 categories:
   - "Clima e Ambiente"

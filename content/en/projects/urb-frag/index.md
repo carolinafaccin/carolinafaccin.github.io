@@ -1,5 +1,5 @@
 ---
-title: "Sociospatial Fragmentation in Santa Cruz do Sul-RS, Brazil"
+title: "Urban Fragmentation in a Medium-Sized City"
 date: 2025-06-16T14:00:00+00:00
 categories:
   - "Housing & Inequality"

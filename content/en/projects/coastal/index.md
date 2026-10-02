@@ -1,5 +1,5 @@
 ---
-title: "Urban Transformation Patterns in Coastal Cities"
+title: "Urban Dynamics in Coastal Cities"
 date: 2025-08-14T10:00:00+00:00
 categories:
   - "Climate & Environment"

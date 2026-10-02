@@ -9,7 +9,7 @@ lastmod: 2026-10-02
 
 {{< icon "graduation-cap" >}} I hold an MSc and a PhD in Urban and Regional Planning from UFRGS, in Porto Alegre. In 2023, I spent a few months at the University of Lisbon as a visiting doctoral researcher, where, along the way, I began programming with Python.
 
-{{< icon "location-dot" >}} I grew up in Santa Cruz do Sul, a mid-sized city in the heart of Rio Grande do Sul, Brazil, and studied Architecture and Urbanism there. That is where I became curious about how cities work. Eventually, I ended up spending more time with spatial datasets than with drawing boards.
+{{< icon "location-dot" >}} I grew up in Santa Cruz do Sul, a medium-sized city in the heart of Rio Grande do Sul, Brazil, and studied Architecture and Urbanism there. That is where I became curious about how cities work. Eventually, I ended up spending more time with spatial datasets than with drawing boards.
 
 {{< icon "star" >}} I live in a cozy apartment in Porto Alegre, a 5-minute walk from Lake Guaíba, where I enjoy long walks and the sunset, and a 2-hour drive from the Atlantic coast, where my family and I love spending weekends.
 
