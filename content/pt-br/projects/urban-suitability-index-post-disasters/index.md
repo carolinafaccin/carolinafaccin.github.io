@@ -65,16 +65,21 @@ Um artigo científico sobre o método será publicado em breve.
 
 ## Mapas
 
-{{< figs cols="2" >}}
-{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_01.webp" alt="Mapas de localização com os sete municípios estudados destacados em cinza escuro no Vale do Taquari, no Rio Grande do Sul e na bacia Taquari-Antas" caption="Área de estudo: sete municípios do Vale do Taquari." >}}
+{{< figs >}}
 {{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_02.webp" alt="Mapa regional de aptidão à urbanização, com grandes áreas em vermelho e laranja nas encostas íngremes e áreas verdes e amarelas em terrenos planos próximos às cidades" caption="Aptidão à urbanização na área de estudo, de não apta (vermelho) a alta (verde)." >}}
 {{< /figs >}}
 
-{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_06.webp" alt="Seis pequenos mapas de Muçum em tons de rosa e roxo, um para cada camada de entrada: uso do solo, distância à sede, distância a rodovias, declividade, suscetibilidade a inundação e a movimentos de massa" caption="As seis camadas de entrada para Muçum, cada uma convertida para uma escala comum de aptidão." >}}
+{{< figs >}}
+{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_06.webp" alt="Seis pequenos mapas de Muçum, um para cada camada de entrada, coloridos de ferrugem (nota 1, menos apto) a laranja, amarelo e verde escuro (nota 100, mais apto): uso do solo, distância à sede, distância a rodovias, declividade, suscetibilidade a inundação e a movimentos de massa" caption="As seis camadas de entrada para Muçum, cada uma convertida para uma escala comum de aptidão." >}}
+{{< /figs >}}
 
 {{< figs cols="2" >}}
-{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_07.webp" alt="Mapa de aptidão de Muçum em roxo e laranja, com áreas de alta aptidão em laranja nas encostas mais suaves e áreas não aptas ao longo do Rio Taquari" caption="Muçum: aptidão à urbanização em quatro classes." >}}
-{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_08.webp" alt="Detalhe da área urbana de Muçum sobre imagem de satélite, com áreas de alta aptidão contornadas em laranja e de baixa aptidão em roxo" caption="Muçum: detalhe das áreas de alta aptidão em torno da sede." >}}
+{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_07.webp" alt="Mapa de aptidão de Muçum de ferrugem (não apta) a verde escuro (alta aptidão), com áreas de alta aptidão nas encostas mais suaves e áreas não aptas ao longo do Rio Taquari" caption="Muçum: aptidão à urbanização em quatro classes." >}}
+{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_08.webp" alt="Detalhe da área urbana de Muçum sobre imagem de satélite, com áreas de alta aptidão em verde escuro e de baixa aptidão em laranja claro" caption="Muçum: detalhe das áreas de alta aptidão em torno da sede." >}}
+{{< /figs >}}
+
+{{< figs >}}
+{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_01.webp" alt="Mapas de localização com os sete municípios estudados destacados em cinza escuro no Vale do Taquari, no Rio Grande do Sul e na bacia Taquari-Antas" caption="Área de estudo: sete municípios do Vale do Taquari." >}}
 {{< /figs >}}
 
 ## Relatórios
