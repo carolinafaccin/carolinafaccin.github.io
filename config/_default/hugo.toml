@@ -1,6 +1,7 @@
 theme = "blowfish"
 baseURL = "https://carolinafaccin.github.io/"
 defaultContentLanguage = "en"
+titleCaseStyle = "firstupper"
 
 enableRobotsTXT = true
 enableEmoji = true

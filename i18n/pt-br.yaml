@@ -1,0 +1,11 @@
+# Textos específicos do site (mesclados com o i18n do tema)
+selected_work: "Trabalhos em destaque"
+see_all_projects: "Ver todos os projetos"
+logo_alt: "Logo de Carolina Faccin"
+facts_period: "Período"
+facts_role: "Meu papel"
+facts_location: "Local"
+facts_partners: "Parceiros"
+facts_data: "Dados"
+facts_tools: "Ferramentas e métodos"
+facts_links: "Links"

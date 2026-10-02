@@ -9,13 +9,14 @@ contentDir = "content/pt-br"
   isoCode = "pt-br"
   rtl = false
   dateFormat = "2 de January de 2006"
-  description = "Carolina Faccin — site profissional"
+  description = "Carolina Faccin é analista de dados geoespaciais e doutora em Planejamento Urbano e Regional, em Porto Alegre. SIG, Python e indicadores espaciais para resiliência climática, habitação e planejamento regional."
+  homeTitle = "Carolina Faccin · Analista de Dados Geoespaciais"
 
 [params.author]
   name = "Carolina Faccin"
   image = "img/profile.jpeg"
   headline = "Analista de Dados Geoespaciais"
-  bio = "Doutora em Planejamento Urbano, pesquisadora e analista de dados geoespaciais com foco em resiliência climática e dinâmicas urbanas."
+  bio = "Análise precisa para decisões inteligentes. Doutora em Planejamento Urbano e Regional, transformo dados espaciais em evidências para resiliência climática e planejamento urbano."
   location = "Porto Alegre, RS, Brasil"
   links = [
     { linkedin = "https://linkedin.com/in/carolinafaccin" },

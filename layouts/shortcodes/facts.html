@@ -1,0 +1,13 @@
+{{/* Project "at a glance" box, filled from front matter:
+     period, role, location, partners, data, tools (string or list each). */}}
+{{ $p := .Page.Params }}
+<dl class="cf-facts not-prose">
+  {{ range $key := slice "period" "location" "partners" "role" "data" "tools" }}
+    {{ with index $p $key }}
+      <div class="cf-facts-item{{ if in (slice "role" "data" "tools") $key }} cf-facts-item--wide{{ end }}">
+        <dt>{{ i18n (printf "facts_%s" $key) }}</dt>
+        <dd>{{ if reflect.IsSlice . }}{{ delimit . " · " }}{{ else }}{{ . | markdownify }}{{ end }}</dd>
+      </div>
+    {{ end }}
+  {{ end }}
+</dl>

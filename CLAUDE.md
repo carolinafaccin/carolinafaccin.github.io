@@ -40,10 +40,21 @@ loaded by Hugo automatically — there is no top-level `hugo.toml`:
 
 **Content is per-language under `content/<lang>/`.** `content/en/` and
 `content/pt-br/` mirror each other. Projects are page bundles:
-`content/<lang>/projects/<slug>/index.md` + a `feature.png` cover image.
-Project front matter uses `categories` (used by the category filter) and
-`summary`. The two language trees must be kept in sync manually when adding
-pages.
+`content/<lang>/projects/<slug>/index.md` + a `feature.jpg` cover image.
+Project front matter: `summary`, `categories` (one of four theme groups, named
+per language: Climate & Environment / Clima e Ambiente, Urban Form & Land Use /
+Forma Urbana e Uso do Solo, Housing & Inequality / Habitação e Desigualdade,
+Regional Development / Desenvolvimento Regional), `featured: true` (shows on
+the homepage "Selected work", newest 3), and the facts-box fields `period`,
+`location`, `partners`, `role`, `data`, `tools`. `date` only orders projects
+(set it to the end of the period); dates, reading time and sharing are hidden.
+The two language trees must be kept in sync manually when adding pages.
+
+Project page body pattern: `{{< lead >}}` question, `{{< facts >}}`, then
+challenge / approach (with a `{{< flow >}}` + `{{< step >}}` methodology
+diagram) / results / why it matters / links / maps (`{{< figs cols="2" >}}` +
+`{{< fig src alt caption >}}`). Every figure needs real alt text.
+Figures live in `static/img/projects/<slug>/` as WebP, max 2000 px.
 
 **Layout overrides live in `layouts/` and shadow the theme** in
 `themes/blowfish/layouts/`. Hugo merges these, with the project root winning.
@@ -54,13 +65,30 @@ Notable custom overrides:
   `assets/img/profile_about.jpeg`, renders a TOC)
 - `layouts/shortcodes/category-filter.html` — pill links over
   `site.Taxonomies.categories`
-- `layouts/partials/head.html`, `extend-head.html`, `favicons.html`
+- `layouts/partials/head.html` (home title from `params.homeTitle`, social
+  image fallback), `extend-head.html` (Source Code Pro), `favicons.html`
+- `layouts/partials/recent-articles/main.html` — homepage "Selected work" +
+  "See all projects" button
+- `layouts/partials/header/basic.html` — copy of theme header, only adds logo alt
+- `layouts/shortcodes/facts.html`, `flow.html`, `step.html`, `figs.html`,
+  `fig.html` — project page components, styled in `assets/css/custom.css`
+- `i18n/en.yaml`, `i18n/pt-br.yaml` — strings for the above
 
 When changing site appearance, check whether the relevant template is
 overridden here before editing the theme submodule (don't edit the submodule).
 
-**Custom color scheme** is `assets/css/schemes/carolina.css` (referenced by
-`colorScheme = "carolina"`); extra styles in `assets/css/custom.css`.
+**Brand identity** (designer "juji", 2025; files in Google Drive
+`Personal/Portfolio/2025_portfolio_id_v3/juji_id_visual/`): typeface Source Code
+Pro; palette cream #FFF8F2, warm grey #DAD2CC, dark olive #383C2F, ink #1F2318,
+sage #93A97E, light sage #CDD7C5, orange #D94400, rust #7B2405, peach #FED2BF,
+yellow #FDD34A; motif is thin street-block linework. The color scheme
+`assets/css/schemes/carolina.css` (`colorScheme = "carolina"`) is built on these
+anchors; extra styles in `assets/css/custom.css`.
+
+**Project covers** are generated from OpenStreetMap street networks of each study
+area in brand colors (background = theme group). Scripts: `scripts/covers/`
+(`fetch.py` downloads via Overpass, `render.py` draws 1600x900 JPGs; needs
+Pillow). `assets/img/social.jpg` is the default share image.
 
 ## Deploy
 
