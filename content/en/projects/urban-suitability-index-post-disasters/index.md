@@ -65,16 +65,21 @@ A peer-reviewed paper on the method is forthcoming.
 
 ## Maps
 
-{{< figs cols="2" >}}
-{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_01.webp" alt="Location maps showing the seven study municipalities highlighted in dark grey within the Taquari Valley, Rio Grande do Sul and the Taquari-Antas river basin" caption="Study area: seven municipalities in the Taquari Valley." >}}
+{{< figs >}}
 {{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_02.webp" alt="Regional map of urban suitability, with large areas in red and orange on steep valley slopes and green and yellow areas on flatter land near towns" caption="Urban suitability across the study area, from not suitable (red) to high suitability (green)." >}}
 {{< /figs >}}
 
-{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_06.webp" alt="Six small maps of Muçum in shades of pink and purple, one for each input layer: land cover, distance to urban core, distance to roads, slope, flood susceptibility and landslide susceptibility" caption="The six input layers for Muçum, each rescaled to a common suitability score." >}}
+{{< figs >}}
+{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_06.webp" alt="Six small maps of Muçum, one for each input layer, colored from rust (score 1, least suitable) through orange and yellow to dark green (score 100, most suitable): land cover, distance to urban core, distance to roads, slope, flood susceptibility and landslide susceptibility" caption="The six input layers for Muçum, each rescaled to a common suitability score." >}}
+{{< /figs >}}
 
 {{< figs cols="2" >}}
-{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_07.webp" alt="Suitability map of Muçum in purple and orange, with high-suitability areas in orange along gentler slopes and non-suitable areas along the Taquari River" caption="Muçum: suitability for urbanization in four classes." >}}
-{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_08.webp" alt="Detail of Muçum's urban area over satellite imagery, highlighting high-suitability land in orange outline and low-suitability land in purple" caption="Muçum: detail of high-suitability land around the urban core." >}}
+{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_07.webp" alt="Suitability map of Muçum from rust (not suitable) to dark green (high suitability), with high-suitability areas on gentler slopes and non-suitable areas along the Taquari River" caption="Muçum: suitability for urbanization in four classes." >}}
+{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_08.webp" alt="Detail of Muçum's urban area over satellite imagery, highlighting high-suitability land in dark green and low-suitability land in light orange" caption="Muçum: detail of high-suitability land around the urban core." >}}
+{{< /figs >}}
+
+{{< figs >}}
+{{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_01.webp" alt="Location maps showing the seven study municipalities highlighted in dark grey within the Taquari Valley, Rio Grande do Sul and the Taquari-Antas river basin" caption="Study area: seven municipalities in the Taquari Valley." >}}
 {{< /figs >}}
 
 ## Reports

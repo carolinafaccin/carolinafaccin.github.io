@@ -37,6 +37,10 @@ MAPS = {
     "urban-suitability-index-post-disasters/urban-suitability_04": {
         "#ffce80": PEACH, "#ffe0af": PEACH, "#fb9a03": ORANGE, "#84cfd3": WATER,
         "#c1e7e9": WATER},
+    # Input layers (score 1 to 100), same scale as the suitability maps: rust = 1, green = 100
+    "urban-suitability-index-post-disasters/urban-suitability_06": {
+        "#feebe2": RUST, "#fcc6c7": ORANGE, "#fa9bb1": ORANGE_L, "#f768a1": YELLOW,
+        "#d63592": SAGE_L, "#ac1284": SAGE, "#7a0177": SAGE_D},
     "urban-suitability-index-post-disasters/urban-suitability_07": {
         "#e66101": SAGE_D, "#f0b576": YELLOW, "#b2abd2": ORANGE_L, "#5e3c99": RUST,
         "#84cfd3": WATER},
