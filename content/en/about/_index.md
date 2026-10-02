@@ -24,10 +24,10 @@ lastmod: 2026-10-02
 ## Selected publications
 
 - **Faccin, C. R.**; Souza, J. L.; Dalcin, G. K. (2026). [Patterns of urban transformation and land use and land cover on the North Coast: Osório, Tramandaí and Imbé](https://seer.ufrgs.br/index.php/paraonde/article/view/150243). *Para Onde!?* (PT)
-- Detoni, L. P.; **Faccin, C. R.**; Silveira, R. L. L.; Rorato, G. Z.; Machado, B. E. (2025). [Extreme climate events and their socio-spatial impacts on small cities of Rio Grande do Sul](https://www.rbgdr.net/revista/index.php/rbgdr/article/view/8020). *Revista Brasileira de Gestão e Desenvolvimento Regional*. (EN/PT)
 - **Faccin, C. R.** (2025). [Urbanization, socio-spatial fragmentation and repercussions on the landscape of the medium-sized city of Santa Cruz do Sul](https://lume.ufrgs.br/handle/10183/294929). PhD thesis, UFRGS. (PT)
 - **Faccin, C. R.**; Almeida, N. B. L.; Campos, H. Á. (2024). [Urban morphology and typology of gated communities in the Porto Alegre metropolis](https://www.revistas.usp.br/posfau/article/view/226515). *Pós FAUUSP*. (PT)
 - **Faccin, C. R.** *et al.* (2022). [One year of pandemic: Covid-19 evolution and territorial dispersion in the Porto Alegre Metropolitan Region](https://www.scielo.br/j/urbe/a/LSrfgjKMGvr9qds4KYLjFYy/). *urbe. Revista Brasileira de Gestão Urbana*. (PT)
+- **Faccin, C. R.** (2020). [Territorial division of labor and urban network: the tobacco and chicken meat production chains in the Vales region, RS](https://lume.ufrgs.br/handle/10183/218462). Master's dissertation, UFRGS. (PT)
 
 More than thirty peer-reviewed articles and book chapters on urban planning, regional development, climate change and geospatial analysis. [See all on ResearchGate →](https://www.researchgate.net/profile/Carolina-Faccin)
 

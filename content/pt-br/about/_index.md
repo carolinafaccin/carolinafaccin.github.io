@@ -24,10 +24,10 @@ lastmod: 2026-10-02
 ## Publicações em destaque
 
 - **Faccin, C. R.**; Souza, J. L.; Dalcin, G. K. (2026). [Padrões de transformação urbana e de uso e cobertura da terra no litoral norte: o caso de Osório, Tramandaí e Imbé](https://seer.ufrgs.br/index.php/paraonde/article/view/150243). *Para Onde!?*
-- Detoni, L. P.; **Faccin, C. R.**; Silveira, R. L. L.; Rorato, G. Z.; Machado, B. E. (2025). [Eventos climáticos extremos e seus impactos socioespaciais em cidades pequenas do Rio Grande do Sul](https://www.rbgdr.net/revista/index.php/rbgdr/article/view/8020). *Revista Brasileira de Gestão e Desenvolvimento Regional*.
 - **Faccin, C. R.** (2025). [Urbanização, fragmentação socioespacial e repercussões na paisagem da cidade média de Santa Cruz do Sul-RS](https://lume.ufrgs.br/handle/10183/294929). Tese de doutorado, UFRGS.
 - **Faccin, C. R.**; Almeida, N. B. L.; Campos, H. Á. (2024). [Morfologia urbana e tipologia de condomínios fechados na metrópole de Porto Alegre–RS](https://www.revistas.usp.br/posfau/article/view/226515). *Pós FAUUSP*.
 - **Faccin, C. R.** *et al.* (2022). [Um ano de pandemia: evolução e dispersão territorial da Covid-19 na Região Metropolitana de Porto Alegre](https://www.scielo.br/j/urbe/a/LSrfgjKMGvr9qds4KYLjFYy/). *urbe. Revista Brasileira de Gestão Urbana*.
+- **Faccin, C. R.** (2020). [Divisão territorial do trabalho e rede urbana: as cadeias produtivas do tabaco e da carne de frango na região dos Vales - RS](https://lume.ufrgs.br/handle/10183/218462). Dissertação de mestrado, UFRGS.
 
 Mais de trinta artigos e capítulos de livros revisados por pares em planejamento urbano, desenvolvimento regional, mudanças climáticas e análise geoespacial. [Ver todas no ResearchGate →](https://www.researchgate.net/profile/Carolina-Faccin)
 
