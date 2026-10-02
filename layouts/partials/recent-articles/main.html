@@ -1,13 +1,13 @@
-{{/* Homepage "Selected work": projects marked `featured: true`, newest first.
-     Falls back to the most recent projects if none are featured. */}}
+{{/* Homepage "Selected work": projects with `featured: <n>` in the front matter, in that order
+     (1 first). Falls back to the most recent projects if none are featured. */}}
 {{ if .Site.Params.homepage.showRecent | default false }}
   {{ $n := .Site.Params.homepage.showRecentItems | default 3 }}
   {{ $projects := where .Site.RegularPages "Section" "projects" }}
-  {{ $featured := where $projects "Params.featured" true }}
-  {{ $pages := cond (gt (len $featured) 0) $featured $projects }}
+  {{ $featured := where $projects "Params.featured" "!=" nil }}
+  {{ $pages := cond (gt (len $featured) 0) (sort $featured "Params.featured") $projects.ByDate.Reverse }}
   <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "selected_work" }}</h2>
   <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-    {{ range first $n $pages.ByDate.Reverse }}
+    {{ range first $n $pages }}
       {{ partial "article-link/card.html" . }}
     {{ end }}
   </section>

@@ -1,7 +1,7 @@
 ---
 title: "Urban Suitability Index Post-Disasters"
 date: 2025-07-08T09:00:00+00:00
-featured: true
+featured: 1
 categories:
   - "Climate & Environment"
 draft: false
