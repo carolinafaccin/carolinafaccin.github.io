@@ -1,7 +1,7 @@
 """v1 figures: standard frame, content untouched.
 
 Trims the uniform margin around each original figure (figures/v0 in data_dir),
-then centers it on a cream canvas in one of four fixed formats chosen by aspect
+then centers it on a white canvas in one of four fixed formats chosen by aspect
 ratio: wide 2:1 (2000x1000), landscape 4:3 (2000x1500), portrait 3:4 (1500x2000)
 or square (1800x1800),
 with the same relative padding. Writes WebP to figures/v1 in data_dir and, with
@@ -20,7 +20,7 @@ from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
 ROOT = Path(__file__).resolve().parents[2]
 DATA = Path(json.load(open(ROOT / "config.local.json"))["data_dir"]) / "figures"
-CANVAS_BG = (255, 248, 242)  # brand cream
+CANVAS_BG = (255, 255, 255)  # white: blends with the maps' own background (cream looked boxed on the dark theme)
 PAD = 0.04                   # padding as a share of the canvas short side
 FORMATS = {"wide": (2000, 1000), "landscape": (2000, 1500), "portrait": (1500, 2000), "square": (1800, 1800)}
 
