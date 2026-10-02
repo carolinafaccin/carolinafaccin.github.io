@@ -9,8 +9,9 @@
 
   {{/* Title */}}
   {{ if .IsHome }}
-    <title>{{ .Site.Title | emojify }}</title>
-    <meta name="title" content="{{ .Site.Title | emojify }}">
+    {{ $homeTitle := .Site.Params.homeTitle | default .Site.Title }}
+    <title>{{ $homeTitle | emojify }}</title>
+    <meta name="title" content="{{ $homeTitle | emojify }}">
   {{ else }}
     <title>{{ .Title | plainify | emojify }} &middot; {{ .Site.Title | emojify }}</title>
     <meta name="title" content="{{ .Title | plainify | emojify }} &middot; {{ .Site.Title | emojify }}">
@@ -65,7 +66,7 @@
   {{/* Use defaultSocialImage if feature image does not exist */}}
   {{ $featureImage := "" }}
   {{ $pageImages := .Resources.ByType "image" }}
-  {{ range slice "*featured*" "*cover*" "*thumbnail*" }}
+  {{ range slice "*feature*" "*cover*" "*thumbnail*" }}
     {{ if not $featureImage }}
       {{ $featureImage = $pageImages.GetMatch . }}
     {{ end }}

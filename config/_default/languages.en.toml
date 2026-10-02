@@ -9,13 +9,14 @@ contentDir = "content/en"
   isoCode = "en"
   rtl = false
   dateFormat = "January 2, 2006"
-  description = "Carolina Faccin — professional website"
+  description = "Carolina Faccin is a geospatial data analyst and PhD in Urban and Regional Planning based in Porto Alegre, Brazil. GIS, Python and spatial indicators for climate resilience, housing and regional planning."
+  homeTitle = "Carolina Faccin · Geospatial Data Analyst"
 
 [params.author]
   name = "Carolina Faccin"
   image = "img/profile.jpeg"
   headline = "Geospatial Data Analyst"
-  bio = "PhD in Urban Planning, researcher and geospatial analyst focused on climate resilience and urban dynamics."
+  bio = "Precise analysis for smarter decisions. PhD in Urban and Regional Planning, turning spatial data into evidence for climate resilience and urban planning."
   location = "Porto Alegre, RS, Brazil"
   links = [
     { linkedin = "https://linkedin.com/in/carolinafaccin" },

@@ -1,0 +1,10 @@
+{{/* Methodology diagram: a numbered sequence of {{< step >}} blocks.
+     Horizontal on wide screens, vertical on phones. Usage:
+     {{< flow title="How it works" >}}
+       {{< step label="Data" >}}...markdown...{{< /step >}}
+       {{< step label="Result" accent="true" >}}...{{< /step >}}
+     {{< /flow >}} */}}
+<figure class="cf-flow not-prose"{{ with .Get "title" }} aria-label="{{ . }}"{{ end }}>
+  {{ with .Get "title" }}<figcaption class="cf-flow-title">{{ . }}</figcaption>{{ end }}
+  <ol class="cf-flow-steps">{{ .Inner }}</ol>
+</figure>

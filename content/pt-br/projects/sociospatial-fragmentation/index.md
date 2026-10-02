@@ -2,36 +2,67 @@
 title: "Fragmentação Socioespacial e Repercussões na Paisagem"
 date: 2025-06-16T14:00:00+00:00
 categories:
-  - "habitação"
-  - "cidades médias"
-  - "morfologia urbana"
-  - "planejamento urbano"
+  - "Habitação e Desigualdade"
+  - "Forma Urbana e Uso do Solo"
 draft: false
-summary: "Como mensurar e analisar a fragmentação socioespacial ao longo de 50 anos, conectando-a a políticas públicas e aos impactos na paisagem?"
+summary: "Minha pesquisa de doutorado: um índice composto, construído a partir de indicadores ambientais, sociais, habitacionais e de infraestrutura, que mede 50 anos de fragmentação socioespacial em uma cidade média brasileira."
+period: "2021–2025"
+location: "Santa Cruz do Sul, RS"
+partners: "PROPUR/UFRGS (Doutorado em Planejamento Urbano e Regional)"
+role: "Pesquisa de doutorado independente: desenho da pesquisa, coleta de dados e banco de dados, indicadores e índice, análise espacial, entrevistas e redação."
+data: ["Censos IBGE", "Bases da prefeitura", "MapBiomas", "Google Open Buildings", "OpenStreetMap", "FEPAM/RS", "DAER", "Documentos de políticas públicas", "Entrevistas semiestruturadas"]
+tools: ["Python", "QGIS", "PostgreSQL/PostGIS", "Índice composto", "Métodos mistos"]
 ---
 
-Como mensurar e analisar a fragmentação socioespacial ao longo de 50 anos, conectando-a a políticas públicas e aos impactos na paisagem?
+{{< lead >}}
+Como medir a fragmentação socioespacial ao longo de cinco décadas e relacioná-la às políticas públicas e às dinâmicas de mercado que a produziram?
+{{< /lead >}}
 
-Pesquisa de doutorado desenvolvida de forma independente, tendo como estudo de caso a cidade média de Santa Cruz do Sul — localizada no Rio Grande do Sul, Brasil.
+{{< facts >}}
 
-**Metodologia:** Desenvolvi uma metodologia quantitativa e qualitativa que combinou análise histórica com análise de dados espaciais. Utilizando Python e QGIS, coletei, organizei e analisei dados, criando quatro tipos de indicadores (ambientais, sociais, habitacionais, infraestruturais) para mapear a evolução da fragmentação socioespacial de 1970 a 2022.
+## O desafio
 
-**Conclusão:** A análise revelou a formação de barreiras físicas e simbólicas que acentuam a segregação, com uma nítida distinção entre o norte e o sul da cidade. Enquanto o norte concentra condomínios fechados de alta renda, o sul concentra conjuntos habitacionais populares de baixa renda.
+A segregação costuma ser estudada nas grandes metrópoles. As cidades médias, que crescem rapidamente no Brasil, muitas vezes reproduzem os mesmos padrões com menos atenção. Santa Cruz do Sul, polo da indústria do tabaco com cerca de 130 mil habitantes, permitia acompanhar como uma cidade se dividiu, do boom agroindustrial até hoje.
 
-**Contribuições:** O estudo demonstrou como políticas públicas e dinâmicas de mercado podem reproduzir padrões de exclusão, oferecendo um diagnóstico que serve de subsídio para a formulação de políticas urbanas.
+## Abordagem
 
-* * *
+A pesquisa combinou uma leitura histórica da cidade com um modelo espacial quantitativo. Identifiquei três fases do desenvolvimento urbano, construí um banco de indicadores e os sintetizei em um único índice de fragmentação.
 
-**Fontes de Dados:** Entrevistas, Políticas Públicas, IBGE, Banco de Dados Municipal, MapBiomas, OpenBuildings, OpenStreetMap, FEPAM/RS, DAER, entre outros.
+{{< flow title="Medindo a fragmentação" >}}
+{{< step label="Periodização" >}}
+Documentos e entrevistas definem três fases: 1970–1993, 1993–2013, 2013–2022
+{{< /step >}}
+{{< step label="Indicadores" >}}
+Quatro grupos: ambientais, sociais, habitacionais e de infraestrutura
+{{< /step >}}
+{{< step label="Síntese" >}}
+Síntese espacial quantitativa em um índice de fragmentação (alto, médio, baixo)
+{{< /step >}}
+{{< step label="Interpretação" accent="true" >}}
+Barreiras, condomínios e habitação de interesse social lidos junto com políticas e mercado
+{{< /step >}}
+{{< /flow >}}
 
-**Ferramentas:** Python, QGIS, PostgreSQL/PostGIS.
+## Resultados
 
-[Base de Dados Aberta](https://doi.org/10.5281/zenodo.16423545)
+- Três fases da fragmentação: **ascensão agroindustrial e migração** (1970–1993), **diversificação econômica e segregação** (1993–2013) e **consolidação da fragmentação** (2013–2022).
+- **Barreiras** físicas e simbólicas (rodovias, zonas industriais, elementos naturais) que acentuam desigualdades e limitam a integração urbana.
+- Uma forte **divisão norte–sul**: o norte concentra condomínios fechados e infraestrutura de qualidade para a população de alta renda; o sul concentra loteamentos populares com serviços públicos precários.
+- A segregação persistiu por cinco décadas, **reforçada por políticas públicas e pela dinâmica imobiliária**, reproduzindo em uma cidade média exclusões típicas das metrópoles.
 
-[Arquivo da Tese](https://lume.ufrgs.br/handle/10183/294929)
+## Por que importa
 
-**Outras Publicações:**
+O índice e o banco de dados oferecem um diagnóstico que pode ser atualizado e reutilizado para orientar zoneamento, política habitacional e investimentos em infraestrutura, e o método pode ser aplicado a outras cidades médias.
 
-  * **[Faccin (2025)](https://editorarealize.com.br/artigo/visualizar/122487)** (pt/br): Artigo submetido ao seminário XXI Enanpur.
+- [Tese](https://lume.ufrgs.br/handle/10183/294929)
+- [Base de dados aberta no Zenodo](https://doi.org/10.5281/zenodo.16423545)
+- [Faccin (2025)](https://editorarealize.com.br/artigo/visualizar/122487): artigo apresentado no XXI ENANPUR.
 
-![](/img/projects/sociospatial-fragmentation/sociospatial_01.png) ![](/img/projects/sociospatial-fragmentation/sociospatial_02.png) ![](/img/projects/sociospatial-fragmentation/sociospatial_03.png)
+## Mapas
+
+{{< fig src="/img/projects/sociospatial-fragmentation/sociospatial_03.webp" alt="Mapa da área urbana de Santa Cruz do Sul colorido pelo índice de fragmentação de baixo a alto, com triângulos marcando loteamentos populares ao sul, círculos marcando condomínios fechados ao norte, rodovias, zona industrial e barreiras naturais" caption="Índice de fragmentação socioespacial, com loteamentos populares, condomínios fechados e barreiras urbanas." >}}
+
+{{< figs cols="2" >}}
+{{< fig src="/img/projects/sociospatial-fragmentation/sociospatial_02.webp" alt="Dois mapas do distrito sede de Santa Cruz do Sul com a área urbanizada em 1993, 2013 e 2022, com crescimento nas bordas" caption="Expansão urbana, 1993–2013 e 2013–2022." >}}
+{{< fig src="/img/projects/sociospatial-fragmentation/sociospatial_01.webp" alt="Mapas de localização situando o Rio Grande do Sul na América do Sul, Santa Cruz do Sul no estado e a área urbana no município" caption="Localização de Santa Cruz do Sul." >}}
+{{< /figs >}}

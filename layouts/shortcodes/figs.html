@@ -1,0 +1,2 @@
+{{/* Grid of {{< fig >}} items. cols = 1 (default), 2 or 3; collapses to 1 on phones. */}}
+<div class="cf-figs cf-figs--{{ .Get "cols" | default 1 }} not-prose">{{ .Inner }}</div>

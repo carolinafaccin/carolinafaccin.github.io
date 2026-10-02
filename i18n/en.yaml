@@ -1,0 +1,11 @@
+# Site-specific strings (merged with the theme's i18n)
+selected_work: "Selected work"
+see_all_projects: "See all projects"
+logo_alt: "Carolina Faccin logo"
+facts_period: "Period"
+facts_role: "My role"
+facts_location: "Location"
+facts_partners: "Partners"
+facts_data: "Data"
+facts_tools: "Tools & methods"
+facts_links: "Links"

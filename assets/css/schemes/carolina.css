@@ -1,37 +1,39 @@
-/* Carolina — sage green primary, warm olive neutrals */
+/* Carolina — brand palette (juji identity, 2025)
+   Anchors: cream #FFF8F2, warm grey #DAD2CC, dark olive #383C2F, ink #1F2318,
+   sage #93A97E, light sage #CDD7C5, orange #D94400, rust #7B2405, peach #FED2BF,
+   yellow #FDD34A (used sparingly as highlight in custom.css) */
 :root {
-  --color-neutral: 255, 255, 255;
-  /* Warm grey-olive neutrals (light mode reads on off-white) */
-  --color-neutral-50:  250, 249, 246;
-  --color-neutral-100: 243, 241, 236;
-  --color-neutral-200: 226, 223, 215;
-  --color-neutral-300: 200, 197, 187;
-  --color-neutral-400: 158, 155, 143;
-  --color-neutral-500: 116, 113, 102;
-  --color-neutral-600:  84,  81,  71;
-  --color-neutral-700:  60,  58,  48;
-  --color-neutral-800:  40,  38,  30;
-  --color-neutral-900:  28,  26,  20;
-  /* Sage green primary */
-  --color-primary-50:  246, 248, 243;
-  --color-primary-100: 233, 238, 228;
-  --color-primary-200: 209, 219, 200;
-  --color-primary-300: 176, 192, 163;
-  --color-primary-400: 142, 156, 126;
-  --color-primary-500: 113, 128,  98;
-  --color-primary-600:  88, 101,  75;
-  --color-primary-700:  69,  80,  58;
-  --color-primary-800:  52,  61,  44;
-  --color-primary-900:  38,  45,  32;
-  /* Terracotta secondary */
-  --color-secondary-50:  253, 244, 240;
-  --color-secondary-100: 249, 224, 214;
-  --color-secondary-200: 242, 192, 171;
-  --color-secondary-300: 228, 147, 116;
-  --color-secondary-400: 210,  99,  62;
-  --color-secondary-500: 196,  75,  35;
-  --color-secondary-600: 163,  58,  24;
-  --color-secondary-700: 128,  44,  16;
-  --color-secondary-800:  94,  32,  10;
-  --color-secondary-900:  62,  20,   5;
+  --color-neutral: 255, 248, 242;
+  --color-neutral-50:  255, 248, 242;
+  --color-neutral-100: 247, 241, 235;
+  --color-neutral-200: 218, 210, 204;
+  --color-neutral-300: 196, 190, 180;
+  --color-neutral-400: 156, 154, 140;
+  --color-neutral-500: 115, 116, 100;
+  --color-neutral-600:  86,  89,  74;
+  --color-neutral-700:  69,  73,  59;
+  --color-neutral-800:  56,  60,  47;
+  --color-neutral-900:  31,  35,  24;
+  /* Sage primary */
+  --color-primary-50:  245, 247, 242;
+  --color-primary-100: 230, 236, 225;
+  --color-primary-200: 205, 215, 197;
+  --color-primary-300: 176, 194, 160;
+  --color-primary-400: 147, 169, 126;
+  --color-primary-500: 118, 140,  98;
+  --color-primary-600:  92, 112,  76;
+  --color-primary-700:  70,  86,  58;
+  --color-primary-800:  52,  62,  44;
+  --color-primary-900:  37,  42,  31;
+  /* Orange → rust secondary */
+  --color-secondary-50:  255, 241, 234;
+  --color-secondary-100: 254, 226, 213;
+  --color-secondary-200: 254, 210, 191;
+  --color-secondary-300: 245, 160, 120;
+  --color-secondary-400: 234, 104,  48;
+  --color-secondary-500: 217,  68,   0;
+  --color-secondary-600: 180,  55,   3;
+  --color-secondary-700: 150,  45,   5;
+  --color-secondary-800: 123,  36,   5;
+  --color-secondary-900:  84,  24,   4;
 }

@@ -1,0 +1,4 @@
+<li class="cf-step{{ if .Get "accent" }} cf-step--accent{{ end }}">
+  <span class="cf-step-label">{{ .Get "label" }}</span>
+  <div class="cf-step-body">{{ .Inner | strings.TrimSpace | .Page.RenderString (dict "display" "block") }}</div>
+</li>

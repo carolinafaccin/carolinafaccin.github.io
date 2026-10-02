@@ -22,3 +22,6 @@ __pycache__/
 venv/
 .claude/
 .aider*
+
+# OSM extracts downloaded by scripts/covers/fetch.py
+scripts/covers/*.json
