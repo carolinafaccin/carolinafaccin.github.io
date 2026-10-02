@@ -14,7 +14,7 @@ import sys
 import numpy as np
 from PIL import Image
 
-from frame import DATA, ROOT, SKIP, flatten, frame
+from frame import DATA, ROOT, flatten, frame, site_slug, skipped
 
 # Brand palette
 CREAM, GREY, OLIVE = "#FFF8F2", "#DAD2CC", "#383C2F"
@@ -85,7 +85,7 @@ def recolor(im, mapping, tol=26.0):
 
 def main(publish=False):
     for src in sorted((DATA / "v0").glob("*/*")):
-        if src.parent.name in SKIP:
+        if skipped(src):
             continue
         key = f"{src.parent.name}/{src.stem}"
         out = DATA / "v2" / src.parent.name / f"{src.stem}.webp"
@@ -97,7 +97,7 @@ def main(publish=False):
         else:
             shutil.copy(DATA / "v1" / src.parent.name / f"{src.stem}.webp", out)
         if publish:
-            shutil.copy(out, ROOT / "static/img/projects" / src.parent.name / out.name)
+            shutil.copy(out, ROOT / "static/img/projects" / site_slug(src.parent.name) / out.name)
 
 
 if __name__ == "__main__":

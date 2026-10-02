@@ -21,8 +21,20 @@ Image.MAX_IMAGE_PIXELS = None
 ROOT = Path(__file__).resolve().parents[2]
 DATA = Path(json.load(open(ROOT / "scripts" / "config.local.json"))["data_dir"]) / "figures"
 CANVAS_BG = (255, 255, 255)  # white: blends with the maps' own background (cream looked boxed on the dark theme)
-# Projects whose figures now come from their own repository (coastal: github.com/carolinafaccin/coastal)
-SKIP = {"coastal"}
+# Figures now drawn by each project's own repository (github.com/carolinafaccin/<repo>) and
+# published with from_repos.py. Keys are the figure folders in data_dir (old slugs).
+SKIP = {"coastal", "housing-porto-alegre", "floods-in-small-cities", "sociospatial-fragmentation"}
+SKIP_FILES = {"small-cities-dynamics/small-cities_01", "small-cities-dynamics/small-cities_02"}
+# Projects renamed on the site: figure folder in data_dir -> site slug
+RENAMED = {"small-cities-dynamics": "mikripoli"}
+
+
+def skipped(src):
+    return src.parent.name in SKIP or f"{src.parent.name}/{src.stem}" in SKIP_FILES
+
+
+def site_slug(folder):
+    return RENAMED.get(folder, folder)
 PAD = 0.04                   # padding as a share of the canvas short side
 FORMATS = {"wide": (2000, 1000), "landscape": (2000, 1500), "portrait": (1500, 2000), "square": (1800, 1800)}
 
@@ -66,7 +78,7 @@ def frame(im):
 
 def main(publish=False):
     for src in sorted((DATA / "v0").glob("*/*")):
-        if src.parent.name in SKIP:
+        if skipped(src):
             continue
         slug, name = src.parent.name, src.stem
         out = DATA / "v1" / slug / f"{name}.webp"
@@ -75,7 +87,7 @@ def main(publish=False):
         img.save(out, "WEBP", quality=84, method=6)
         print(f"{slug}/{name}: {fmt}")
         if publish:
-            shutil.copy(out, ROOT / "static/img/projects" / slug / f"{name}.webp")
+            shutil.copy(out, ROOT / "static/img/projects" / site_slug(slug) / f"{name}.webp")
 
 
 if __name__ == "__main__":

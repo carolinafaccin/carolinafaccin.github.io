@@ -19,11 +19,11 @@ SCHEMES={ # bg, line, accent
 }
 PROJ={
  'urban-suitability-index-post-disasters':('climate','river'),
- 'floods-in-small-cities':('climate','river'),
+ 'floods-rs-2024':('climate','river'),
  'coastal':('form','coast'),
- 'small-cities-dynamics':('form','river'),
- 'housing-porto-alegre':('housing','arterial'),
- 'sociospatial-fragmentation':('housing','arterial'),
+ 'mikripoli':('form','river'),
+ 'housing-poa':('housing','arterial'),
+ 'urb-frag':('housing','arterial'),
  'territorial-management-role-of-medium-sized-cities':('regional','arterial'),
  'territorial-division-of-labor-and-urban-network':('regional','places'),
  'polycentrism-and-regional-development':('regional','places'),
