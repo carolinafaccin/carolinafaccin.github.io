@@ -39,7 +39,7 @@ git submodule update --init --depth 1
 
 Não há nada fora do repositório: o site não depende de `outputs_dir`/`sources_dir`, nem de arquivos locais não versionados. O clone acima (em `~/Repositories/`) basta para rodar e publicar. O repo pesa cerca de 950 MB por causa do histórico de imagens e PDFs, então o primeiro clone demora.
 
-Os originais das imagens da época do WordPress (capas, fotos, ícone, logos) estão só no Google Drive, em `Personal/Portfolio/2024_wordpress_v2/` e `Personal/Portfolio/2025_portfolio_id_v3/`. As versões usadas no site já estão versionadas em `static/` e `assets/`.
+Os originais das imagens da época do WordPress (capas, fotos, ícone, logos) estão só no Google Drive, em `Workspace/Career/Portfolio/2024_wordpress_v2/` e `Workspace/Career/Portfolio/2025_portfolio_id_v3/`. As versões usadas no site já estão versionadas em `static/` e `assets/`.
 
 Dica opcional (VSCode): `.vscode/` é ignorado pelo git; para não poluir o painel de Source Control com o submódulo, crie `.vscode/settings.json` com `{"git.detectSubmodules": false}`.
 
