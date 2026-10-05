@@ -55,7 +55,7 @@ Project page body pattern: `{{< lead >}}` question, `{{< facts >}}`, then
 challenge / approach (with a `{{< flow >}}` + `{{< step >}}` methodology
 diagram) / results / why it matters / links / maps (`{{< figs cols="2" >}}` +
 `{{< fig src alt caption >}}`). Every figure needs real alt text.
-Figures live in `static/img/projects/<slug>/` as WebP, max 2000 px. Five projects have their own public repository (github.com/carolinafaccin/<repo>, cloned next to this one in `~/Repositories`), whose `pipeline.py` draws the figures and copies them to `docs/img/`: `coastal`, `housing-poa`, `floods-rs-2024`, `urb-frag` and `mikripoli` (slug = repo name). `python scripts/figures/from_repos.py [slug]` converts them to WebP here. The older figures (v1 frame, v2 recolor) come from `scripts/figures/frame.py` and `recolor.py`, which skip the repository projects (`SKIP`, `SKIP_FILES`; their `data_dir` folders keep the old slugs, mapped by `RENAMED`). Old project URLs (`housing-porto-alegre`, `floods-in-small-cities`, `sociospatial-fragmentation`, `small-cities-dynamics`) redirect through front-matter `aliases`.
+Figures live in `static/img/projects/<slug>/` as WebP, max 2000 px. Five projects have their own public repository (github.com/carolinafaccin/<repo>, cloned next to this one in `~/Repositories`), whose `pipeline.py` draws the figures and copies them to `docs/img/`: `coastal`, `housing-poa`, `floods-rs-2024`, `urb-frag` and `mikripoli` (slug = repo name). `python scripts/figures/from_repos.py [slug]` converts them to WebP here. The older figures (v1 frame, v2 recolor) come from `scripts/figures/frame.py` and `recolor.py`, which skip the repository projects (`SKIP`, `SKIP_FILES`; their `outputs_dir` folders keep the old slugs, mapped by `RENAMED`). Old project URLs (`housing-porto-alegre`, `floods-in-small-cities`, `sociospatial-fragmentation`, `small-cities-dynamics`) redirect through front-matter `aliases`.
 
 **Layout overrides live in `layouts/` and shadow the theme** in
 `themes/blowfish/layouts/`. Hugo merges these, with the project root winning.
@@ -102,14 +102,14 @@ checks out with `submodules: recursive`, builds with `--minify`, and publishes
 
 ## Setup on a new machine / what lives outside git
 
-Everything needed to build and deploy is in this repo; the build does not depend on `data_dir`/`raw_dir` or on untracked local files. A fresh clone is verified to build:
+Everything needed to build and deploy is in this repo; the build does not depend on `outputs_dir`/`sources_dir` or on untracked local files. A fresh clone is verified to build:
 
 ```bash
 git clone --recurse-submodules --shallow-submodules https://github.com/carolinafaccin/carolinafaccin.github.io.git ~/Repositories/carolinafaccin.github.io
 cd ~/Repositories/carolinafaccin.github.io && hugo --minify
 ```
 
-- `scripts/config.local.json` (gitignored; template in `scripts/config.local.json.example`) sets `data_dir` = Google Drive `Meu Drive/Workspace/Code/Data outputs/carolinafaccin.github.io`. The project report PDFs are mirrored there under `pdf/` (same structure as `static/pdf/`), as the first step of moving them out of the repo: once they are shared on Drive, replace the `/pdf/...` links in the urban-suitability pages with Drive links and delete `static/pdf/`.
+- `scripts/config.local.json` (gitignored; template in `scripts/config.local.json.example`) sets `outputs_dir` = Google Drive `Meu Drive/Workspace/Data/outputs/carolinafaccin.github.io`. The project report PDFs are mirrored there under `pdf/` (same structure as `static/pdf/`), as the first step of moving them out of the repo: once they are shared on Drive, replace the `/pdf/...` links in the urban-suitability pages with Drive links and delete `static/pdf/`.
 - Repo is ~950 MB (history of `static/img` and `static/pdf`); the shallow submodule flag skips the theme's history. If cloned without submodules: `git submodule update --init --depth 1`.
 - Gitignored and safe to lose (all regenerable or trivial): `public/`, `resources/_gen/`, `.hugo_build.lock`, `venv/` (see `requirements.txt`; only for the deleted migration scripts), `.claude/`, `.remember/`, `.vscode/`, `.aider*`, `.DS_Store`.
 - Original WordPress-era images (covers, photos, icon, logos) are only on Google Drive: `Personal/Portfolio/2024_wordpress_v2/` and `Personal/Portfolio/2025_portfolio_id_v3/`. Used versions are already in `static/` and `assets/`.
