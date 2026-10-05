@@ -1,10 +1,10 @@
 """v1 figures: standard frame, content untouched.
 
-Trims the uniform margin around each original figure (figures/v0 in data_dir),
+Trims the uniform margin around each original figure (figures/v0 in outputs_dir),
 then centers it on a white canvas in one of four fixed formats chosen by aspect
 ratio: wide 2:1 (2000x1000), landscape 4:3 (2000x1500), portrait 3:4 (1500x2000)
 or square (1800x1800),
-with the same relative padding. Writes WebP to figures/v1 in data_dir and, with
+with the same relative padding. Writes WebP to figures/v1 in outputs_dir and, with
 --publish, copies them to static/img/projects/<slug>/<name>.webp.
 
 Usage: python scripts/figures/frame.py [--publish]   (needs Pillow, numpy)
@@ -19,13 +19,13 @@ from PIL import Image
 
 Image.MAX_IMAGE_PIXELS = None
 ROOT = Path(__file__).resolve().parents[2]
-DATA = Path(json.load(open(ROOT / "scripts" / "config.local.json"))["data_dir"]) / "figures"
+DATA = Path(json.load(open(ROOT / "scripts" / "config.local.json"))["outputs_dir"]) / "figures"
 CANVAS_BG = (255, 255, 255)  # white: blends with the maps' own background (cream looked boxed on the dark theme)
 # Figures now drawn by each project's own repository (github.com/carolinafaccin/<repo>) and
-# published with from_repos.py. Keys are the figure folders in data_dir (old slugs).
+# published with from_repos.py. Keys are the figure folders in outputs_dir (old slugs).
 SKIP = {"coastal", "housing-porto-alegre", "floods-in-small-cities", "sociospatial-fragmentation"}
 SKIP_FILES = {"small-cities-dynamics/small-cities_01", "small-cities-dynamics/small-cities_02"}
-# Projects renamed on the site: figure folder in data_dir -> site slug
+# Projects renamed on the site: figure folder in outputs_dir -> site slug
 RENAMED = {"small-cities-dynamics": "mikripoli"}
 
 
