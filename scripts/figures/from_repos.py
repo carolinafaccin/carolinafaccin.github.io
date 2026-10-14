@@ -27,6 +27,9 @@ PROJECTS = {
     "urb-frag": ("urb-frag", ["map_index", "index_profile", "map_indicators", "map_expansion",
                               "growth_and_developments", "map_location"]),
     "mikripoli": ("mikripoli", ["map_tracts", "map_neighborhoods"]),
+    "financialization-poa": ("financialization-poa", ["a25_graficos_1_3_lancamentos", "a25_figura_1_lancamentos_bairros",
+                                                      "a25_figura_2_nao_ocupados_crescimento",
+                                                      "a25_figura_3_preco_studios"]),
 }
 MAX_WIDTH = 2000
 

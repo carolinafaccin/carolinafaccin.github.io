@@ -26,6 +26,7 @@ PROJ={
  'coastal':('form','coast'),
  'mikripoli':('form','river'),
  'housing-poa':('housing','arterial'),
+ 'financialization-poa':('housing','arterial'),
  'urb-frag':('housing','arterial'),
  'territorial-management-role-of-medium-sized-cities':('regional','arterial'),
  'territorial-division-of-labor-and-urban-network':('regional','places'),

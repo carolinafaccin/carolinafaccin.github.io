@@ -70,6 +70,8 @@ I later rebuilt the analysis as an open, reproducible Python pipeline that check
 - [Almeida, Faccin & Campos (2025)](https://www.researchgate.net/publication/394435940_Financeirizacao_do_espaco_urbano_e_capitalismo_de_plataforma_producao_imobiliaria_em_Porto_Alegre-RS) (PT): studios and compact apartments conceived as financial assets for rental income.
 - [Almeida, Morlin Filho & Faccin (2025)](https://editorarealize.com.br/artigo/visualizar/122479) (PT): real estate production in Porto Alegre and the agents involved.
 
+The 2025 paper on studios and compact apartments is rebuilt, with its data and figures, in [Financialization of Housing in Porto Alegre]({{< ref "/projects/financialization-poa" >}}).
+
 ## Figures
 
 Produced by the open pipeline above.
