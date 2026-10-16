@@ -1,6 +1,7 @@
 ---
 title: "Financeirização da Moradia em Porto Alegre"
 date: 2026-10-14T10:00:00+00:00
+aliases: ["/projects/financialization-poa/"]
 categories:
   - "Habitação e Desigualdade"
 draft: false
@@ -65,10 +66,10 @@ Este projeto continua a pesquisa sobre produção imobiliária de [Condomínios 
 
 Refeitas com os dados do artigo e do Censo.
 
-{{< fig src="/img/projects/financialization-poa/a25_graficos_1_3_lancamentos.webp" alt="Quatro gráficos dos lançamentos residenciais em Porto Alegre: unidades por ano de 2007 a 2015, com pico de cerca de 8.400 em 2012; empreendimentos caindo de cerca de 450 para 320; unidades de 2 e 3 dormitórios com pico em 2012 e 2013; e unidades de 1 dormitório subindo forte de 2016 a 2018" caption="Lançamentos residenciais, 2007–2018 (Gráficos 1 a 3 do artigo)." >}}
+{{< fig src="/img/projects/financialization-br/a25_graficos_1_3_lancamentos.webp" alt="Quatro gráficos dos lançamentos residenciais em Porto Alegre: unidades por ano de 2007 a 2015, com pico de cerca de 8.400 em 2012; empreendimentos caindo de cerca de 450 para 320; unidades de 2 e 3 dormitórios com pico em 2012 e 2013; e unidades de 1 dormitório subindo forte de 2016 a 2018" caption="Lançamentos residenciais, 2007–2018 (Gráficos 1 a 3 do artigo)." >}}
 
-{{< fig src="/img/projects/financialization-poa/a25_figura_1_lancamentos_bairros.webp" alt="Dois mapas dos bairros de Porto Alegre: unidades lançadas de 2007 a 2015, mais escuro no Sarandi, ao norte, e em Petrópolis, no centro-leste, e empreendimentos lançados, mais escuro em Petrópolis, quase nada no sul" caption="Unidades e empreendimentos lançados por bairro, 2007–2015 (Figura 1)." >}}
+{{< fig src="/img/projects/financialization-br/a25_figura_1_lancamentos_bairros.webp" alt="Dois mapas dos bairros de Porto Alegre: unidades lançadas de 2007 a 2015, mais escuro no Sarandi, ao norte, e em Petrópolis, no centro-leste, e empreendimentos lançados, mais escuro em Petrópolis, quase nada no sul" caption="Unidades e empreendimentos lançados por bairro, 2007–2015 (Figura 1)." >}}
 
-{{< fig src="/img/projects/financialization-poa/a25_figura_2_nao_ocupados_crescimento.webp" alt="Dois mapas dos bairros de Porto Alegre: percentual de domicílios não ocupados em 2022, maior no Centro Histórico, Praia de Belas e Floresta, e crescimento dos domicílios particulares de 2010 a 2022, maior na Restinga, Lomba do Pinheiro e Mário Quintana, na periferia, com alguns bairros perdendo domicílios" caption="Domicílios não ocupados (2022) e crescimento dos domicílios (2010–2022) por bairro (Figura 2)." >}}
+{{< fig src="/img/projects/financialization-br/a25_figura_2_nao_ocupados_crescimento.webp" alt="Dois mapas dos bairros de Porto Alegre: percentual de domicílios não ocupados em 2022, maior no Centro Histórico, Praia de Belas e Floresta, e crescimento dos domicílios particulares de 2010 a 2022, maior na Restinga, Lomba do Pinheiro e Mário Quintana, na periferia, com alguns bairros perdendo domicílios" caption="Domicílios não ocupados (2022) e crescimento dos domicílios (2010–2022) por bairro (Figura 2)." >}}
 
-{{< fig src="/img/projects/financialization-poa/a25_figura_3_preco_studios.webp" alt="Dois mapas dos bairros de Porto Alegre: mediana do preço anunciado por metro quadrado dos apartamentos à venda, maior no centro-leste, e número de empreendimentos de studios e 1 dormitório da Melnick e da Cyrela Goldsztein de 2020 a 2024, todos num conjunto de bairros centrais e do centro-leste" caption="Preço do m² (out. 2026) e empreendimentos compactos da Melnick e da Cyrela Goldsztein, 2020–2024 (Figura 3)." >}}
+{{< fig src="/img/projects/financialization-br/a25_figura_3_preco_studios.webp" alt="Dois mapas dos bairros de Porto Alegre: mediana do preço anunciado por metro quadrado dos apartamentos à venda, maior no centro-leste, e número de empreendimentos de studios e 1 dormitório da Melnick e da Cyrela Goldsztein de 2020 a 2024, todos num conjunto de bairros centrais e do centro-leste" caption="Preço do m² (out. 2026) e empreendimentos compactos da Melnick e da Cyrela Goldsztein, 2020–2024 (Figura 3)." >}}

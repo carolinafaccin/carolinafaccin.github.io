@@ -1,6 +1,7 @@
 ---
 title: "Financialization of Housing in Porto Alegre"
 date: 2026-10-14T10:00:00+00:00
+aliases: ["/projects/financialization-poa/"]
 categories:
   - "Housing & Inequality"
 draft: false
@@ -65,10 +66,10 @@ This project continues the research on real estate production in [Gated Communit
 
 Rebuilt from the paper's data and the census (text in Portuguese).
 
-{{< fig src="/img/projects/financialization-poa/a25_graficos_1_3_lancamentos.webp" alt="Four charts of residential launches in Porto Alegre: units per year from 2007 to 2015, peaking at about 8,400 in 2012; developments falling from about 450 to 320; two- and three-bedroom units peaking in 2012 and 2013; and one-bedroom units rising sharply from 2016 to 2018" caption="Residential launches, 2007–2018 (Graphs 1 to 3 of the paper)." >}}
+{{< fig src="/img/projects/financialization-br/a25_graficos_1_3_lancamentos.webp" alt="Four charts of residential launches in Porto Alegre: units per year from 2007 to 2015, peaking at about 8,400 in 2012; developments falling from about 450 to 320; two- and three-bedroom units peaking in 2012 and 2013; and one-bedroom units rising sharply from 2016 to 2018" caption="Residential launches, 2007–2018 (Graphs 1 to 3 of the paper)." >}}
 
-{{< fig src="/img/projects/financialization-poa/a25_figura_1_lancamentos_bairros.webp" alt="Two maps of Porto Alegre neighborhoods: units launched from 2007 to 2015, darkest in Sarandi in the north and Petrópolis in the center-east, and developments launched, darkest in Petrópolis, with almost nothing in the south" caption="Units and developments launched by neighborhood, 2007–2015 (Figure 1)." >}}
+{{< fig src="/img/projects/financialization-br/a25_figura_1_lancamentos_bairros.webp" alt="Two maps of Porto Alegre neighborhoods: units launched from 2007 to 2015, darkest in Sarandi in the north and Petrópolis in the center-east, and developments launched, darkest in Petrópolis, with almost nothing in the south" caption="Units and developments launched by neighborhood, 2007–2015 (Figure 1)." >}}
 
-{{< fig src="/img/projects/financialization-poa/a25_figura_2_nao_ocupados_crescimento.webp" alt="Two maps of Porto Alegre neighborhoods: the share of dwellings not occupied in 2022, highest in Centro Histórico, Praia de Belas and Floresta, and the growth of private dwellings from 2010 to 2022, highest in Restinga, Lomba do Pinheiro and Mário Quintana at the periphery, with a few neighborhoods losing dwellings" caption="Dwellings not occupied (2022) and growth of dwellings (2010–2022) by neighborhood (Figure 2)." >}}
+{{< fig src="/img/projects/financialization-br/a25_figura_2_nao_ocupados_crescimento.webp" alt="Two maps of Porto Alegre neighborhoods: the share of dwellings not occupied in 2022, highest in Centro Histórico, Praia de Belas and Floresta, and the growth of private dwellings from 2010 to 2022, highest in Restinga, Lomba do Pinheiro and Mário Quintana at the periphery, with a few neighborhoods losing dwellings" caption="Dwellings not occupied (2022) and growth of dwellings (2010–2022) by neighborhood (Figure 2)." >}}
 
-{{< fig src="/img/projects/financialization-poa/a25_figura_3_preco_studios.webp" alt="Two maps of Porto Alegre neighborhoods: median asking price per square meter of apartments for sale, highest in the center-east, and the number of studio and one-bedroom developments by Melnick and Cyrela Goldsztein from 2020 to 2024, all in a cluster of central and east-central neighborhoods" caption="Price per m² (Oct 2026) and compact developments of Melnick and Cyrela Goldsztein, 2020–2024 (Figure 3)." >}}
+{{< fig src="/img/projects/financialization-br/a25_figura_3_preco_studios.webp" alt="Two maps of Porto Alegre neighborhoods: median asking price per square meter of apartments for sale, highest in the center-east, and the number of studio and one-bedroom developments by Melnick and Cyrela Goldsztein from 2020 to 2024, all in a cluster of central and east-central neighborhoods" caption="Price per m² (Oct 2026) and compact developments of Melnick and Cyrela Goldsztein, 2020–2024 (Figure 3)." >}}

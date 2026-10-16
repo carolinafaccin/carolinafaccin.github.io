@@ -18,7 +18,7 @@ SPECS={
  'coastal':(-29.982,-50.138,0.05,CITY),
  'mikripoli':(-29.238,-51.874,0.028,CITY),
  'housing-poa':(-30.085,-51.225,0.09,CITY),
- 'financialization-poa':(-30.035,-51.205,0.035,CITY),
+ 'financialization-br':(-30.035,-51.205,0.035,CITY),
  'urb-frag':(-29.715,-52.43,0.075,CITY),
  'territorial-management-role-of-medium-sized-cities':(-29.69,-53.81,0.08,CITY),
  'territorial-division-of-labor-and-urban-network':(-29.55,-52.15,1.1,REG),

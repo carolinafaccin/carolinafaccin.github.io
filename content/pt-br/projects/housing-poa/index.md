@@ -70,7 +70,7 @@ Depois, reconstruí a análise em um pipeline aberto e reproduzível em Python, 
 - [Almeida, Faccin & Campos (2025)](https://www.researchgate.net/publication/394435940_Financeirizacao_do_espaco_urbano_e_capitalismo_de_plataforma_producao_imobiliaria_em_Porto_Alegre-RS): studios e apartamentos compactos concebidos como ativos financeiros para renda.
 - [Almeida, Morlin Filho & Faccin (2025)](https://editorarealize.com.br/artigo/visualizar/122479): produção imobiliária em Porto Alegre e os agentes envolvidos.
 
-O artigo de 2025 sobre studios e apartamentos compactos é refeito, com seus dados e figuras, em [Financeirização da Moradia em Porto Alegre]({{< ref "/projects/financialization-poa" >}}).
+O artigo de 2025 sobre studios e apartamentos compactos é refeito, com seus dados e figuras, em [Financeirização da Moradia em Porto Alegre]({{< ref "/projects/financialization-br" >}}).
 
 ## Figuras
 
