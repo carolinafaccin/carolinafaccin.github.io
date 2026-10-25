@@ -11,7 +11,6 @@
   "image" ((resources.Get $a.image).Permalink)
   "jobTitle" $a.headline
   "description" site.Params.description
-  "worksFor" (dict "@type" "Organization" "name" "WRI Brasil" "url" "https://www.wribrasil.org.br")
   "homeLocation" (dict "@type" "Place" "name" $a.location)
   "knowsAbout" (slice "Geographic information systems" "Spatial analysis" "Urban planning" "Climate resilience" "Python")
   "sameAs" $same
