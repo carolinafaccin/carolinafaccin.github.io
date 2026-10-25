@@ -1,6 +1,6 @@
 {{/* Person (home and About): tells search engines that this site, the author's profiles and her name are one entity. */}}
 {{- $a := site.Params.author -}}
-{{- $same := slice "https://www.wri.org/profile/carolina-faccin" -}}
+{{- $same := slice -}}
 {{- range $a.links }}{{ range $k, $v := . }}{{ if ne $k "email" }}{{ $same = $same | append $v }}{{ end }}{{ end }}{{ end -}}
 {{- $p := dict
   "@context" "https://schema.org"

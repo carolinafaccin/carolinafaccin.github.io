@@ -12,3 +12,12 @@ facts_links: "Links"
 
 last_updated:
   other: "Atualizado em"
+dataset_authors: "Autoria"
+dataset_coverage: "Abrangência"
+dataset_years: "Anos"
+dataset_format: "Formato"
+dataset_license: "Licença"
+dataset_access: "Acesso"
+dataset_links: "Links"
+dataset_code: "Código no GitHub"
+dataset_project: "Página do projeto"

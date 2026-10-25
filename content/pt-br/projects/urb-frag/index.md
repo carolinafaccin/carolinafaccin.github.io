@@ -60,6 +60,7 @@ O índice e o banco de dados oferecem um diagnóstico que pode ser atualizado e 
 - [Tese](https://lume.ufrgs.br/handle/10183/294929)
 - [Base de dados aberta no Zenodo](https://doi.org/10.5281/zenodo.16423545)
 - [Faccin (2025)](https://editorarealize.com.br/artigo/visualizar/122487): artigo apresentado no XXI ENANPUR.
+- [Faccin, Costa & Silveira (2026)](https://doi.org/10.5216/ag.v20i1.83530): a vulnerabilidade socioambiental nos 144 setores censitários, por análise fatorial e de agrupamentos de 25 indicadores, na *Ateliê Geográfico*.
 
 Depois, reconstruí o índice e as figuras em um pipeline aberto e reproduzível em Python a partir da base da tese, conferido com os números da tese: [código e figuras no GitHub](https://github.com/carolinafaccin/urb-frag).
 

@@ -60,6 +60,7 @@ The index and the database offer a diagnosis that can be updated and reused to i
 - [Thesis (PT)](https://lume.ufrgs.br/handle/10183/294929)
 - [Open dataset on Zenodo](https://doi.org/10.5281/zenodo.16423545)
 - [Faccin (2025)](https://editorarealize.com.br/artigo/visualizar/122487) (PT): paper presented at XXI ENANPUR.
+- [Faccin, Costa & Silveira (2026)](https://doi.org/10.5216/ag.v20i1.83530) (PT): socio-environmental vulnerability across the 144 census tracts, through factor and cluster analysis of 25 indicators, in *Ateliê Geográfico*.
 
 I later rebuilt the index and the figures as an open, reproducible Python pipeline from the thesis dataset, checked against the numbers in the thesis: [code and figures on GitHub](https://github.com/carolinafaccin/urb-frag).
 

@@ -73,6 +73,7 @@ Notable custom overrides:
 - `layouts/partials/header/basic.html` — copy of theme header, only adds logo alt
 - `layouts/shortcodes/facts.html`, `flow.html`, `step.html`, `figs.html`,
   `fig.html` — project page components, styled in `assets/css/custom.css`
+- `layouts/shortcodes/dataset.html` — dataset box on the Datasets page (`content/<lang>/datasets/index.md`, menu "Datasets"/"Dados"), same look as `facts`
 - `i18n/en.yaml`, `i18n/pt-br.yaml` — strings for the above
 
 When changing site appearance, check whether the relevant template is
