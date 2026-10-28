@@ -13,6 +13,9 @@ partners: "Rede de pesquisa Mikripoli sobre cidades pequenas"
 role: "Integrante da rede: análise estatística e espacial, tipologias, estudos de caso comparativos, mapas e coautoria; também ensino e oficinas."
 data: ["IBGE REGIC (1966–2018)", "Censos IBGE (2010, 2022)", "DEE-RS", "RAIS e CAGED", "Imagens Landsat", "Google Earth", "OpenStreetMap", "Dados municipais", "Trabalho de campo"]
 tools: ["QGIS", "Análise estatística", "Construção de tipologias", "Análise morfológica"]
+links:
+  - title: "Código no GitHub"
+    url: "https://github.com/carolinafaccin/mikripoli"
 ---
 
 {{< lead >}}

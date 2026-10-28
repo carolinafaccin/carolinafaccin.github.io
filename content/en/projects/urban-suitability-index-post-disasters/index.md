@@ -12,6 +12,9 @@ partners: "SEDUR/RS (State Secretariat of Urban and Metropolitan Development), U
 role: "Geospatial analyst on the georeferencing team: spatial data processing, multicriteria suitability modeling and map production for the municipal reports."
 data: ["MapBiomas land cover (2022)", "IBGE urbanized areas (2019)", "FEPAM/SEMA cartographic base", "ANADEM terrain model", "UFRGS landslide-scar mapping (May 2024)", "IPH/UFRGS hydraulic data"]
 tools: ["QGIS", "Python", "Multicriteria analysis", "Raster map algebra (10 m)"]
+links:
+  - title: "Interactive maps"
+    url: "https://iede.rs.gov.br/portal/apps/experiencebuilder/experience/?id=1dea216a43a6431f8a221b08e54cc43f"
 ---
 
 {{< lead >}}
@@ -84,40 +87,27 @@ A peer-reviewed paper on the method is forthcoming.
 
 ## Reports
 
-Technical reports delivered to [SEDUR](https://www.sedur.rs.gov.br/cidades), in Portuguese. Explore the [interactive maps](https://iede.rs.gov.br/portal/apps/webappviewer/index.html?id=34e8fb12b1284b9f88685f561f2c1e0b) on the State's spatial data portal.
+Technical reports delivered to [SEDUR](https://www.sedur.rs.gov.br/cidades), in Portuguese. Explore the [interactive maps](https://iede.rs.gov.br/portal/apps/experiencebuilder/experience/?id=1dea216a43a6431f8a221b08e54cc43f) on the State's spatial data portal.
 
-**1. Risk zoning** — flood and landslide susceptibility, drag zones:
-[Arroio do Meio](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-arroio-do-meio.pdf) ·
-[Colinas](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-colinas.pdf) ·
-[Cruzeiro do Sul](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-cruzeiro-do-sul.pdf) ·
-[Encantado](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-encantado.pdf) ·
-[Estrela](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-estrela.pdf) ·
-[Muçum](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-mucum.pdf) ·
-[Roca Sales](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-roca-sales.pdf)
+1. **Risk zoning**: flood and landslide susceptibility, drag zones.
+2. **Preliminary guidelines for priority occupation.**
+3. **Technical diagnosis**: physical, social, economic, infrastructure, mobility and legislation.
+
+| Municipality | 1. Risk zoning | 2. Guidelines | 3. Diagnosis |
+| --- | :---: | :---: | :---: |
+| Arroio do Meio | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-arroio-do-meio.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-arroio-do-meio.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-arroio-do-meio.pdf) |
+| Colinas | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-colinas.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-colinas.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-colinas.pdf) |
+| Cruzeiro do Sul | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-cruzeiro-do-sul.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-cruzeiro-do-sul.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-cruzeiro-do-sul.pdf) |
+| Encantado | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-encantado.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-encantado.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-encantado.pdf) |
+| Estrela | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-estrela.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-estrela.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-estrela.pdf) |
+| Muçum | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-mucum.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-mucum.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-mucum.pdf) |
+| Roca Sales | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1a-zoneamento-de-risco-roca-sales.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-roca-sales.pdf) | [PDF](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-roca-sales.pdf) |
 
 {{< figs cols="3" >}}
 {{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_03.webp" alt="Risk zoning map of Arroio do Meio with high risk in red along rivers and steep slopes, medium in orange, low in green and no risk in yellow" caption="Arroio do Meio: risk zoning." >}}
 {{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_04.webp" alt="Map of Arroio do Meio showing flood-susceptible land in light orange along the Taquari and Forqueta rivers and the urbanized area hit by the flood in darker orange" caption="Arroio do Meio: flood susceptibility and urban areas hit in 2024." >}}
 {{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_05.webp" alt="Detail of Arroio do Meio's urban core over satellite imagery, with risk classes overlaid and numbered landmarks such as the city hall and the iron bridge" caption="Arroio do Meio: risk classes in the urban core." >}}
 {{< /figs >}}
-
-**2. Preliminary guidelines for priority occupation:**
-[Arroio do Meio](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-arroio-do-meio.pdf) ·
-[Colinas](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-colinas.pdf) ·
-[Cruzeiro do Sul](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-cruzeiro-do-sul.pdf) ·
-[Encantado](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-encantado.pdf) ·
-[Estrela](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-estrela.pdf) ·
-[Muçum](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-mucum.pdf) ·
-[Roca Sales](/pdf/projects/urban-suitability-index-post-disasters/1b-diretrizes-preliminares-de-ocupacao-prioritaria-roca-sales.pdf)
-
-**3. Technical diagnosis** — physical, social, economic, infrastructure, mobility and legislation:
-[Arroio do Meio](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-arroio-do-meio.pdf) ·
-[Colinas](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-colinas.pdf) ·
-[Cruzeiro do Sul](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-cruzeiro-do-sul.pdf) ·
-[Encantado](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-encantado.pdf) ·
-[Estrela](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-estrela.pdf) ·
-[Muçum](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-mucum.pdf) ·
-[Roca Sales](/pdf/projects/urban-suitability-index-post-disasters/2b-1-diagnostico-tecnico-e-leitura-tecnica-roca-sales.pdf)
 
 {{< figs cols="3" >}}
 {{< fig src="/img/projects/urban-suitability-index-post-disasters/urban-suitability_09.webp" alt="Rural land use map of Roca Sales showing soy, temporary crops, pasture and forestry plantations in different colors" caption="Roca Sales: rural production (MapBiomas 2023)." >}}

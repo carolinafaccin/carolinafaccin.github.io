@@ -1,0 +1,9 @@
+{{/* Buttons on a dataset page, from the front matter map `dataset`: the data on Zenodo (doi, filled),
+     then code (GitHub URL), project (page path) and paper ({title, url}), outlined. */}}
+{{ $d := .Page.Params.dataset }}
+<div class="cf-actions not-prose">
+  {{ with $d.doi }}<a class="cf-btn" href="https://doi.org/{{ . }}">{{ i18n "dataset_zenodo" }} &rarr;</a>{{ end }}
+  {{ with $d.code }}<a class="cta-button" href="{{ . }}">{{ i18n "dataset_code" }}</a>{{ end }}
+  {{ with $d.project }}{{ with site.GetPage . }}<a class="cta-button" href="{{ .RelPermalink }}">{{ i18n "dataset_project" }}</a>{{ end }}{{ end }}
+  {{ with $d.paper }}<a class="cta-button" href="{{ .url }}">{{ .title }}</a>{{ end }}
+</div>

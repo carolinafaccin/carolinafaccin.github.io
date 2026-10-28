@@ -1,5 +1,6 @@
 {{/* Project "at a glance" box, filled from front matter:
-     period, role, location, partners, data, tools (string or list each). */}}
+     period, role, location, partners, data, tools (string or list each),
+     followed by the main links as buttons: `links`, a list of {title, url} or {title, page} (a site page path). */}}
 {{ $p := .Page.Params }}
 <dl class="cf-facts not-prose">
   {{ range $key := slice "period" "location" "partners" "role" "data" "tools" }}
@@ -11,3 +12,12 @@
     {{ end }}
   {{ end }}
 </dl>
+{{ with $p.links }}
+<div class="cf-actions not-prose">
+  {{ range . }}
+    {{ $href := .url }}
+    {{ with .page }}{{ with site.GetPage . }}{{ $href = .RelPermalink }}{{ end }}{{ end }}
+    <a class="cta-button" href="{{ $href }}">{{ .title }}</a>
+  {{ end }}
+</div>
+{{ end }}

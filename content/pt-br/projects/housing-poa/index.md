@@ -14,6 +14,13 @@ partners: "PROPUR/UFRGS; Observatório das Metrópoles (Núcleo Porto Alegre)"
 role: "Autora principal: levantamento e georreferenciamento, construção da tipologia, análise espacial e estatística, mapas e base de dados aberta."
 data: ["Imagens Google Earth (2022)", "Censo IBGE 2010 (renda por setor censitário)", "Prefeitura de Porto Alegre (empreendimentos do MCMV)", "OpenStreetMap"]
 tools: ["QGIS", "Python", "Construção de tipologias", "Estatística espacial"]
+links:
+  - title: "Artigo (2024)"
+    url: "https://www.revistas.usp.br/posfau/article/view/226515"
+  - title: "Código no GitHub"
+    url: "https://github.com/carolinafaccin/housing-poa"
+  - title: "Dados"
+    page: "/datasets/gated-communities-poa"
 ---
 
 {{< lead >}}

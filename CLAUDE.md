@@ -46,7 +46,7 @@ per language: Climate & Environment / Clima e Ambiente, Urban Form & Land Use /
 Forma Urbana e Uso do Solo, Housing & Inequality / Habitação e Desigualdade,
 Regional Development / Desenvolvimento Regional), `featured: <n>` (shows on
 the homepage "Selected work" in that order, 1 first; first 3 shown), and the facts-box fields `period`,
-`location`, `partners`, `role`, `data`, `tools`. `date` only orders projects
+`location`, `partners`, `role`, `data`, `tools`, plus `links` (list of `{title, url}` or `{title, page}`; the 1–3 main links, e.g. paper, code, dataset page), rendered as buttons under the facts box. Long download lists go in a table (see the urban-suitability reports), not in buttons. `date` only orders projects
 (set it to the end of the period); dates, reading time and sharing are hidden, and the
 project cards show `period` instead (`layouts/partials/article-meta/basic.html`).
 The two language trees must be kept in sync manually when adding pages.
@@ -73,7 +73,7 @@ Notable custom overrides:
 - `layouts/partials/header/basic.html` — copy of theme header, only adds logo alt
 - `layouts/shortcodes/facts.html`, `flow.html`, `step.html`, `figs.html`,
   `fig.html` — project page components, styled in `assets/css/custom.css`
-- `layouts/shortcodes/dataset.html` — dataset box on the Datasets page (`content/<lang>/datasets/index.md`, menu "Datasets"/"Dados"), same look as `facts`
+- `layouts/shortcodes/dataset.html` — dataset box, same look as `facts`. Datasets (menu "Datasets"/"Dados") work like projects: section `content/<lang>/datasets/_index.md` (cards ordered by `weight`) and one bundle per dataset, `content/<lang>/datasets/<slug>/index.md` + `feature.jpg`, with `summary`, `period` and a `dataset:` map (authors, coverage, years, format, license, access, doi, code, project, paper) that the shortcodes read (`paper` is `{title, url}`); the cards show `period` and `coverage`. Page body: description, `{{< dataset-links >}}` (buttons: data on Zenodo, code, project, paper), a figure, `{{< dataset >}}`. Dataset figures live in `static/img/datasets/<slug>/` (BrazilPop's from `scripts/figures/brazilpop.py`, SGB's copied from the cartas-suscetibilidade-sgb repo's `docs/img/`) or reuse the project's figures
 - `i18n/en.yaml`, `i18n/pt-br.yaml` — strings for the above
 
 When changing site appearance, check whether the relevant template is
@@ -93,7 +93,7 @@ Extra styles in `assets/css/custom.css`.
 **Project covers** are generated from OpenStreetMap street networks of each study
 area in brand colors (background = theme group). Scripts: `scripts/covers/`
 (`fetch.py` downloads via Overpass, `render.py` draws 1600x900 JPGs; needs
-Pillow). `assets/img/social.jpg` is the default share image.
+Pillow). Dataset covers use the same scripts but are drawn as a grid of cells (`GRID` in `render.py`). `assets/img/social.jpg` is the default share image.
 
 ## Deploy
 

@@ -13,6 +13,11 @@ partners: "Força-tarefa voluntária de pesquisadores; relatório entregue a ges
 role: "Coautora do relatório técnico e do artigo; responsável pela análise geoespacial que identificou as áreas urbanas e edificações atingidas pela inundação."
 data: ["Mancha de inundação IPH/UFRGS (6 maio 2024)", "Google Open Buildings", "Setores censitários IBGE (2010)", "Rodovias DAER-RS"]
 tools: ["QGIS", "Python", "Análise de sobreposição espacial", "Análise documental de instrumentos de planejamento"]
+links:
+  - title: "Artigo (2025)"
+    url: "https://www.rbgdr.net/revista/index.php/rbgdr/article/view/8020"
+  - title: "Código no GitHub"
+    url: "https://github.com/carolinafaccin/floods-rs-2024"
 ---
 
 {{< lead >}}

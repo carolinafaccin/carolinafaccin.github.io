@@ -12,6 +12,11 @@ partners: "Coautoria com Juliana Lombard de Souza e Guilherme Kruger Dalcin"
 role: "Autora principal: desenho da pesquisa, processamento de dados em Python, análise espacial e mapas."
 data: ["MapBiomas uso e cobertura da terra (1985–2023)", "Censos demográficos IBGE (1991–2022)", "Google Open Buildings"]
 tools: ["Python (GeoPandas, Matplotlib)", "Análise de mudança de cobertura do solo", "Pipeline reproduzível"]
+links:
+  - title: "Artigo (2026)"
+    url: "https://seer.ufrgs.br/index.php/paraonde/article/view/150243"
+  - title: "Código no GitHub"
+    url: "https://github.com/carolinafaccin/coastal"
 ---
 
 {{< lead >}}

@@ -12,6 +12,9 @@ partners: "PROPUR/UFRGS; Nicole Leal de Almeida (autora principal); Heleniza Áv
 role: "Coautora: organização dos dados, análise espacial e mapas; pipeline reprodutível que refaz as figuras do artigo a partir dos dados originais e do Censo."
 data: ["Censo do Mercado Imobiliário (2007–2018) e Panorama do Mercado Imobiliário (set. 2024), Sinduscon-RS", "Censos IBGE 2000, 2010 e 2022 e CNEFE (2010, 2022)", "Sites das incorporadoras (Melnick, Cyrela Goldsztein)", "Anúncios do ZAP Imóveis (out. 2026)"]
 tools: ["Python", "GeoPandas", "QGIS", "Dados censitários"]
+links:
+  - title: "Artigo (2025)"
+    url: "http://dx.doi.org/10.1590/2236-9996.2025-6469490-pt"
 ---
 
 {{< lead >}}

@@ -1,6 +1,7 @@
 """Render brand covers (1600x900 JPG) from the OSM extracts saved by fetch.py.
-PROJ maps each slug to a color scheme (the theme group) and an accent layer.
-Copy the result to content/<lang>/projects/<slug>/feature.jpg for both languages.
+PROJ maps each slug to a color scheme (the theme group) and an accent layer; GRID
+slugs (the datasets) are drawn as a raster of cells shaded by street density.
+Copy the result to content/<lang>/{projects,datasets}/<slug>/feature.jpg for both languages.
 
 Usage: python scripts/covers/render.py <out_dir> [slug ...]   (needs Pillow)
 """
@@ -32,10 +33,33 @@ PROJ={
  'territorial-division-of-labor-and-urban-network':('regional','places'),
  'polycentrism-and-regional-development':('regional','places'),
  'dispersion-of-covid-19':('regional','corridor'),
+ 'brazilpop':('regional','river'),
+ 'sgb-susceptibility':('climate','river'),
+ 'gated-communities-poa':('housing','arterial'),
+ 'urb-frag-data':('housing','arterial'),
 }
+GRID={'brazilpop','sgb-susceptibility','gated-communities-poa','urb-frag-data'}
+CELL=25  # grid cell in px (1600x900 -> 64x36 cells)
 MINOR={'residential','living_street','service','track','unclassified'}
 MID={'tertiary','secondary','secondary_link','tertiary_link'}
 MAJOR={'primary','primary_link','trunk','trunk_link','motorway','motorway_link'}
+def grid(layers,bg,ln,ac):
+    # Street ink per cell, in 5 quantile classes; cells crossed by the accent layer take the accent color
+    c=CELL*K; nx,ny=W//CELL,H//CELL
+    def ink(layer):
+        a=layer.getchannel('A').resize((nx,ny),Image.BOX)
+        return list(a.tobytes())
+    street=[sum(v) for v in zip(*(ink(layers[k]) for k in ['minor','mid','major']))]
+    acc=ink(layers['acc'])
+    nz=sorted(v for v in street if v>0)
+    br=[nz[int(len(nz)*q)] for q in (0.2,0.4,0.6,0.8)] if nz else []
+    img=Image.new('RGB',(W*K,H*K),bg); d=ImageDraw.Draw(img,'RGBA'); g=1.5*K
+    for i,(v,a) in enumerate(zip(street,acc)):
+        x,y=(i%nx)*c,(i//nx)*c
+        box=[x+g,y+g,x+c-g,y+c-g]
+        if a>20: d.rectangle(box,fill=ac+(255,))
+        elif v>0: d.rectangle(box,fill=ln+(60+45*sum(v>b for b in br),))
+    return img
 def render(slug):
     scheme,acc=PROJ[slug]; bg,ln,ac=[C[x] for x in SCHEMES[scheme]]
     s,w,n,e=json.load(open(f'{D}/{slug}.bbox.json'))['bbox']
@@ -77,7 +101,9 @@ def render(slug):
     for (x,y),p in places:
         r=(11 if p=='city' else 4.5)*K
         dr['acc'].ellipse([x-r,y-r,x+r,y+r],fill=ac+(255,))
-    for k in ['minor','mid','major','acc']: img.paste(layers[k],(0,0),layers[k])
+    if slug in GRID: img=grid(layers,bg,ln,ac)
+    else:
+        for k in ['minor','mid','major','acc']: img.paste(layers[k],(0,0),layers[k])
     img=img.resize((W,H),Image.LANCZOS)
     img.save(f'{OUT}/{slug}.jpg',quality=85,optimize=True,progressive=True)
     print(slug,os.path.getsize(f'{OUT}/{slug}.jpg')//1024,'KB')

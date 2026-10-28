@@ -2,7 +2,7 @@
 project cover via the Overpass API. Edit SPECS (center lat/lon, height in degrees)
 to add a project. Output: <slug>.json + <slug>.bbox.json next to this script.
 
-Usage: python scripts/covers/fetch.py   (needs network; Pillow not required)
+Usage: python scripts/covers/fetch.py [slug ...]   (needs network; Pillow not required)
 """
 import json,subprocess,os,sys,time
 D=os.path.dirname(__file__)
@@ -24,8 +24,14 @@ SPECS={
  'territorial-division-of-labor-and-urban-network':(-29.55,-52.15,1.1,REG),
  'polycentrism-and-regional-development':(-28.6,-52.9,2.6,REG.replace('secondary','secondary_DISABLED')),
  'dispersion-of-covid-19':(-29.85,-51.05,0.55,REG),
+ # datasets (content/<lang>/datasets/<slug>/), rendered as grids
+ 'brazilpop':(-15.79,-47.89,0.16,CITY),
+ 'sgb-susceptibility':(-22.51,-43.18,0.07,CITY),
+ 'gated-communities-poa':(-30.085,-51.225,0.09,CITY),
+ 'urb-frag-data':(-29.715,-52.43,0.075,CITY),
 }
-for slug,(lat,lon,dlat,q) in SPECS.items():
+for slug in (sys.argv[1:] or SPECS):
+    lat,lon,dlat,q=SPECS[slug]
     out=f'{D}/{slug}.json'
     if os.path.exists(out) and os.path.getsize(out)>5000: continue
     s,w,n,e=bb(lat,lon,dlat); b=f'({s},{w},{n},{e})'

@@ -12,6 +12,9 @@ partners: "PROPUR/UFRGS; Nicole Leal de Almeida (lead author); Heleniza Ávila C
 role: "Co-author: data organization, spatial analysis and maps; reproducible pipeline that rebuilds the paper's figures from the original data and the census."
 data: ["Sinduscon-RS real estate census (2007–2018) and market report (Sept 2024)", "IBGE Census 2000, 2010 and 2022 and CNEFE address files (2010, 2022)", "Developers' websites (Melnick, Cyrela Goldsztein)", "ZAP Imóveis listings (Oct 2026)"]
 tools: ["Python", "GeoPandas", "QGIS", "Census data"]
+links:
+  - title: "Paper (2025)"
+    url: "http://dx.doi.org/10.1590/2236-9996.2025-6469490-pt"
 ---
 
 {{< lead >}}

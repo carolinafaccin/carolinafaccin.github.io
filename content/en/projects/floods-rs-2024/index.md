@@ -13,6 +13,11 @@ partners: "Volunteer task force of researchers; report delivered to public manag
 role: "Co-author of the technical report and the paper; responsible for the geospatial analysis that identified the urban areas and buildings reached by the flood."
 data: ["IPH/UFRGS flood extent (6 May 2024)", "Google Open Buildings", "IBGE census tracts (2010)", "DAER-RS highways"]
 tools: ["QGIS", "Python", "Spatial overlay analysis", "Documentary analysis of planning instruments"]
+links:
+  - title: "Paper (2025)"
+    url: "https://www.rbgdr.net/revista/index.php/rbgdr/article/view/8020"
+  - title: "Code on GitHub"
+    url: "https://github.com/carolinafaccin/floods-rs-2024"
 ---
 
 {{< lead >}}

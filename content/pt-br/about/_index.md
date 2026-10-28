@@ -34,21 +34,13 @@ Mais de trinta artigos e capítulos de livros revisados por pares em planejament
 
 ## Formação
 
-**Doutorado em Planejamento Urbano e Regional**
-*2021–2025*
-UFRGS — Porto Alegre, RS, Brasil
+{{< edu years="2021–2025" degree="Doutorado em Planejamento Urbano e Regional" place="UFRGS — Porto Alegre, RS, Brasil" >}}
 
-**Estágio doutoral em Geografia**
-*2023–2024*
-Universidade de Lisboa — Lisboa, Portugal
+{{< edu years="2023–2024" degree="Estágio doutoral em Geografia" place="Universidade de Lisboa — Lisboa, Portugal" >}}
 
-**Mestrado em Planejamento Urbano e Regional**
-*2019–2020*
-UFRGS — Porto Alegre, RS, Brasil
+{{< edu years="2019–2020" degree="Mestrado em Planejamento Urbano e Regional" place="UFRGS — Porto Alegre, RS, Brasil" >}}
 
-**Bacharelado em Arquitetura e Urbanismo**
-*2013–2018*
-UNISC — Santa Cruz do Sul, RS, Brasil
+{{< edu years="2013–2018" degree="Bacharelado em Arquitetura e Urbanismo" place="UNISC — Santa Cruz do Sul, RS, Brasil" >}}
 
 ## Contato
 

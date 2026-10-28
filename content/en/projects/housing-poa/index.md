@@ -14,6 +14,13 @@ partners: "PROPUR/UFRGS; Observatório das Metrópoles (Porto Alegre core)"
 role: "Lead author: data collection and georeferencing, typology design, spatial and statistical analysis, maps and open dataset."
 data: ["Google Earth imagery (2022)", "IBGE Census 2010 (income by census tract)", "City of Porto Alegre (federal housing program sites)", "OpenStreetMap"]
 tools: ["QGIS", "Python", "Typology building", "Spatial statistics"]
+links:
+  - title: "Paper (2024)"
+    url: "https://www.revistas.usp.br/posfau/article/view/226515"
+  - title: "Code on GitHub"
+    url: "https://github.com/carolinafaccin/housing-poa"
+  - title: "Dataset"
+    page: "/datasets/gated-communities-poa"
 ---
 
 {{< lead >}}

@@ -11,6 +11,9 @@ partners: "PROPUR/UFRGS (Mestrado em Planejamento Urbano e Regional)"
 role: "Pesquisa de mestrado independente: coleta de dados, banco de dados, análise estatística e espacial, cartografia (mais de 30 mapas) e redação."
 data: ["CNPJ Receita Federal (2020)", "Registro de estabelecimentos MAPA (2020)", "RAIS e CAGED (2018)", "COMEX STAT (2018)", "IBGE (2010–2018)", "SES-RS (2020)"]
 tools: ["QGIS", "Excel", "Adobe Illustrator", "Mapas de fluxos", "Pesquisa documental"]
+links:
+  - title: "Dissertação de mestrado"
+    url: "https://lume.ufrgs.br/handle/10183/218462"
 ---
 
 {{< lead >}}

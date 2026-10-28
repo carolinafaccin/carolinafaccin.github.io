@@ -34,21 +34,13 @@ More than thirty peer-reviewed articles and book chapters on urban planning, reg
 
 ## Education
 
-**PhD in Urban and Regional Planning**
-*2021–2025*
-UFRGS — Porto Alegre, RS, Brazil
+{{< edu years="2021–2025" degree="PhD in Urban and Regional Planning" place="UFRGS — Porto Alegre, RS, Brazil" >}}
 
-**Visiting doctoral researcher in Geography**
-*2023–2024*
-Universidade de Lisboa — Lisbon, Portugal
+{{< edu years="2023–2024" degree="Visiting doctoral researcher in Geography" place="Universidade de Lisboa — Lisbon, Portugal" >}}
 
-**MSc in Urban and Regional Planning**
-*2019–2020*
-UFRGS — Porto Alegre, RS, Brazil
+{{< edu years="2019–2020" degree="MSc in Urban and Regional Planning" place="UFRGS — Porto Alegre, RS, Brazil" >}}
 
-**BSc in Architecture and Urbanism**
-*2013–2018*
-UNISC — Santa Cruz do Sul, RS, Brazil
+{{< edu years="2013–2018" degree="BSc in Architecture and Urbanism" place="UNISC — Santa Cruz do Sul, RS, Brazil" >}}
 
 ## Contact
 

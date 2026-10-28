@@ -4,6 +4,17 @@ body {
   font-weight: 400;
 }
 
+/* Running text (page bodies, summaries) in Source Sans 3, Source Code Pro's sans companion;
+   headings, navigation, labels and buttons stay in Source Code Pro */
+.prose, .cf-facts dd {
+  font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.0625rem;
+}
+.cf-facts dd { font-size: 0.95rem; }
+.cf-facts dt, .cf-actions a, .cf-flow-title, .cf-step-label, .prose figcaption, .prose table th {
+  font-family: 'Source Code Pro', ui-monospace, monospace;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Code Pro', ui-monospace, monospace;
   font-weight: 600;
@@ -71,6 +82,63 @@ h1, h2, h3, h4, h5, h6 {
 .dark .cf-facts { background: rgb(var(--color-neutral-700)); }
 .dark .cf-facts dt { color: rgb(var(--color-secondary-200)); }
 .dark .cf-facts dd { color: rgb(var(--color-neutral-100)); }
+
+/* Link buttons: dataset pages ({{< dataset-links >}}: data on Zenodo filled, on its own row,
+   the rest as .cta-button in equal columns below) and projects (front matter `links`, under {{< facts >}}) */
+.cf-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+.cf-facts + .cf-actions { margin-top: -0.75rem; }
+.cf-actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.75rem;
+  text-align: center;
+  line-height: 1.4;
+}
+.cf-btn {
+  grid-column: 1 / -1;
+  display: inline-block;
+  padding: 0.6rem 1.25rem;
+  border: 1px solid rgb(var(--color-primary-600));
+  border-radius: 0.375rem;
+  background: rgb(var(--color-primary-600));
+  color: rgb(var(--color-neutral-50));
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+.cf-btn:hover {
+  background: rgb(var(--color-primary-700));
+  border-color: rgb(var(--color-primary-700));
+}
+
+/* Education on the About page ({{< edu >}}) */
+.cf-edu {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 0.25rem 1rem;
+  margin: 0 0 1.25rem;
+  line-height: 1.45;
+}
+.cf-edu-years {
+  font-family: 'Source Code Pro', ui-monospace, monospace;
+  font-size: 0.9rem;
+  padding-top: 0.1rem;
+  color: rgb(var(--color-secondary-700));
+}
+.cf-edu-degree { font-weight: 600; color: rgb(var(--color-neutral-900)); }
+.cf-edu-place { color: rgb(var(--color-neutral-600)); }
+.dark .cf-edu-years { color: rgb(var(--color-secondary-300)); }
+.dark .cf-edu-degree { color: rgb(var(--color-neutral-100)); }
+.dark .cf-edu-place { color: rgb(var(--color-neutral-400)); }
+@media (max-width: 480px) {
+  .cf-edu { grid-template-columns: 1fr; }
+}
 
 /* Methodology diagram ({{< flow >}} + {{< step >}}) */
 .cf-flow { margin: 2rem 0 2.5rem; }

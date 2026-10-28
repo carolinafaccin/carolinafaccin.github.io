@@ -11,6 +11,9 @@ partners: "Grupo de pesquisa em desenvolvimento regional coordenado por Rogério
 role: "Autora principal do capítulo sobre Santa Maria e coautora do capítulo sobre Santa Cruz do Sul e Lajeado: análise de dados secundários, trabalho de campo, entrevistas e mapas."
 data: ["IBGE (REGIC, Gestão do Território)", "RAIS", "IPEA", "COMEX STAT", "Trabalho de campo", "Entrevistas semiestruturadas"]
 tools: ["QGIS", "Excel", "Entrevistas", "Análise de redes e fluxos"]
+links:
+  - title: "E-book"
+    url: "https://pedroejoaoeditores.com.br/produto/cidades-medias-gestao-territorial-e-desenvolvimento-regional/"
 ---
 
 {{< lead >}}

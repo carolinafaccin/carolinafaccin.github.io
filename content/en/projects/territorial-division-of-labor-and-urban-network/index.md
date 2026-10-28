@@ -11,6 +11,9 @@ partners: "PROPUR/UFRGS (Master's in Urban and Regional Planning)"
 role: "Independent master's research: data collection, database, statistical and spatial analysis, cartography (more than 30 maps) and writing."
 data: ["Company registry (Receita Federal CNPJ, 2020)", "MAPA establishment registry (2020)", "RAIS and CAGED (2018)", "COMEX STAT exports (2018)", "IBGE (2010–2018)", "SES-RS (2020)"]
 tools: ["QGIS", "Excel", "Adobe Illustrator", "Flow mapping", "Documentary research"]
+links:
+  - title: "Master's dissertation (PT)"
+    url: "https://lume.ufrgs.br/handle/10183/218462"
 ---
 
 {{< lead >}}

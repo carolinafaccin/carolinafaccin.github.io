@@ -13,6 +13,13 @@ partners: "PROPUR/UFRGS (PhD in Urban and Regional Planning)"
 role: "Independent doctoral research: research design, data collection and database, indicators and index, spatial analysis, interviews and writing."
 data: ["IBGE censuses", "Municipal databases", "MapBiomas", "Google Open Buildings", "OpenStreetMap", "FEPAM/RS", "DAER", "Public policy documents", "Semi-structured interviews"]
 tools: ["Python", "QGIS", "PostgreSQL/PostGIS", "Composite index", "Mixed methods"]
+links:
+  - title: "PhD thesis (PT)"
+    url: "https://lume.ufrgs.br/handle/10183/294929"
+  - title: "Code on GitHub"
+    url: "https://github.com/carolinafaccin/urb-frag"
+  - title: "Dataset"
+    page: "/datasets/urb-frag-data"
 ---
 
 {{< lead >}}

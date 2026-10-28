@@ -35,6 +35,10 @@
     {{ with .Params.period }}
       {{ $meta.Add "partials" (slice (printf `<span title="%s">%s</span>` (i18n "facts_period") .)) }}
     {{ end }}
+    {{/* Datasets: coverage on the cards (without the parenthetical detail), after the period */}}
+    {{ with .Params.dataset }}
+      {{ $meta.Add "partials" (slice (printf `<span title="%s">%s</span>` (i18n "dataset_coverage") (replaceRE ` \(.*\)$` "" .coverage))) }}
+    {{ end }}
   {{ end }}
 
   {{ if and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default false)) (ne (partial

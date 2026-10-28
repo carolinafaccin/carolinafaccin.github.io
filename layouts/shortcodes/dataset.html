@@ -1,24 +1,20 @@
-{{/* Dataset box on the Datasets page, same look as the project facts box:
-     authors, coverage, years, format, license, access (markdown each),
-     plus links from doi, code (GitHub URL), project (page path) and paper (markdown). */}}
+{{/* Dataset box on a dataset page (content/<lang>/datasets/<slug>/), same look as the project facts box.
+     Reads the front matter map `dataset`: authors, coverage, years, format, license, access (markdown each)
+     and doi. The links are buttons, from {{< dataset-links >}}. */}}
+{{ $d := .Page.Params.dataset }}
 <dl class="cf-facts not-prose">
   {{ range $key := slice "authors" "coverage" "years" "format" "license" "access" }}
-    {{ with $.Get $key }}
+    {{ with index $d $key }}
       <div class="cf-facts-item{{ if in (slice "authors" "access") $key }} cf-facts-item--wide{{ end }}">
         <dt>{{ i18n (printf "dataset_%s" $key) }}</dt>
         <dd>{{ . | markdownify }}</dd>
       </div>
     {{ end }}
   {{ end }}
-  <div class="cf-facts-item cf-facts-item--wide">
-    <dt>{{ i18n "dataset_links" }}</dt>
-    <dd>
-      {{ $links := slice }}
-      {{ with .Get "doi" }}{{ $links = $links | append (printf `<a href="https://doi.org/%s">Zenodo · doi:%s</a>` . .) }}{{ end }}
-      {{ with .Get "code" }}{{ $links = $links | append (printf `<a href="%s">%s</a>` . (i18n "dataset_code")) }}{{ end }}
-      {{ with .Get "project" }}{{ with site.GetPage . }}{{ $links = $links | append (printf `<a href="%s">%s: %s</a>` .RelPermalink (i18n "dataset_project") .LinkTitle) }}{{ end }}{{ end }}
-      {{ with .Get "paper" }}{{ $links = $links | append (. | markdownify) }}{{ end }}
-      {{ delimit $links " · " | safeHTML }}
-    </dd>
-  </div>
+  {{ with $d.doi }}
+    <div class="cf-facts-item cf-facts-item--wide">
+      <dt>DOI</dt>
+      <dd><a href="https://doi.org/{{ . }}">{{ . }}</a></dd>
+    </div>
+  {{ end }}
 </dl>

@@ -12,6 +12,11 @@ partners: "Co-authors Juliana Lombard de Souza and Guilherme Kruger Dalcin"
 role: "Lead author: research design, data processing in Python, spatial analysis and maps."
 data: ["MapBiomas land use and land cover (1985–2023)", "IBGE demographic censuses (1991–2022)", "Google Open Buildings"]
 tools: ["Python (GeoPandas, Matplotlib)", "Land-cover change analysis", "Reproducible pipeline"]
+links:
+  - title: "Paper (2026)"
+    url: "https://seer.ufrgs.br/index.php/paraonde/article/view/150243"
+  - title: "Code on GitHub"
+    url: "https://github.com/carolinafaccin/coastal"
 ---
 
 {{< lead >}}

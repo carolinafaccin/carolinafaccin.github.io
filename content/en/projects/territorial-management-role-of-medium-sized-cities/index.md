@@ -11,6 +11,9 @@ partners: "Regional development research group led by Rogério Leandro Lima da S
 role: "Lead author of the Santa Maria chapter and co-author of the Santa Cruz do Sul and Lajeado chapter: secondary data analysis, fieldwork, interviews and maps."
 data: ["IBGE (Regions of Influence of Cities, Territorial Management)", "RAIS", "IPEA", "COMEX STAT", "Fieldwork", "Semi-structured interviews"]
 tools: ["QGIS", "Excel", "Interviews", "Network and flow analysis"]
+links:
+  - title: "E-book (PT)"
+    url: "https://pedroejoaoeditores.com.br/produto/cidades-medias-gestao-territorial-e-desenvolvimento-regional/"
 ---
 
 {{< lead >}}

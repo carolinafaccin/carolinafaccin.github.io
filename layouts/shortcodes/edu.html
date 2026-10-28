@@ -1,0 +1,9 @@
+{{/* One line of the Education section on the About page: years on the left,
+     degree and institution on the right. Params: years, degree, place. */}}
+<div class="cf-edu not-prose">
+  <div class="cf-edu-years">{{ .Get "years" }}</div>
+  <div>
+    <div class="cf-edu-degree">{{ .Get "degree" }}</div>
+    <div class="cf-edu-place">{{ .Get "place" }}</div>
+  </div>
+</div>

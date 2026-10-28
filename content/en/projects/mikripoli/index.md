@@ -13,6 +13,9 @@ partners: "Mikripoli research network on small cities"
 role: "Network member: statistical and spatial data analysis, typologies, comparative case studies, maps and co-authoring; also teaching and workshops."
 data: ["IBGE REGIC (1966–2018)", "IBGE censuses (2010, 2022)", "DEE-RS", "RAIS and CAGED", "Landsat imagery", "Google Earth", "OpenStreetMap", "Municipal data", "Fieldwork"]
 tools: ["QGIS", "Statistical analysis", "Typology building", "Morphological analysis"]
+links:
+  - title: "Code on GitHub"
+    url: "https://github.com/carolinafaccin/mikripoli"
 ---
 
 {{< lead >}}
